@@ -1,14 +1,19 @@
 'use client'
 import React from 'react';
-import { IoTerminal } from "react-icons/io5";
+import { TiAnchorOutline } from "react-icons/ti";
 
 const NavBar = () => {
   return (
-    <nav className="bg-white py-4 shadow-lg">
+    <nav className="navbar bg-white py-4 shadow-lg fixed top-0 w-full z-10">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center">
           <div className="flex-shrink-0">
-            <a href="#" className="text-xl font-bold text-blue-600"> <IoTerminal /> Raeid</a>
+            <div className="flex items-center hover:cursor-pointer">
+              <TiAnchorOutline className="text-3xl text-blue-600 mr-2" />
+              <div>
+                <p className="font-bold text-xl text-blue-600">Raeid Usmanali</p>
+              </div>
+            </div>
           </div>
           <div className="hidden md:block">
             <ul className="flex space-x-6">
