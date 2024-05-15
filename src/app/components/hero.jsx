@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 
 const LandingHero = () => {
@@ -6,7 +7,7 @@ const LandingHero = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center">
         {/* Image Section */}
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <img src="" alt="Hero" className="rounded-lg shadow-md" />
+          <img style={{ width: '100%', maxHeight: '400px' }} src="heroimg1.jpg" alt="Hero"  />
         </div>
         {/* Text Section */}
         <div className="md:w-1/2 md:pl-8 text-white">
