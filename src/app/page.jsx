@@ -9,14 +9,11 @@ import Footer from './components/footer';
 export default function Home() {
   return (
     <div>
-      
-      <main>
         <NavBar />
         <LandingHero />
         <AboutSection />
         <ProjectStrip />
         <Footer />
-      </main>
     </div>
   );
 }
