@@ -13,15 +13,15 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row justify-center items-center">
 
           <div className="w-full md:w-1/2 flex justify-center items-center">
-            <img src="/assets/heroimg1.jpg" alt="Character" className="w-auto h-auto rounded-sm " />
+            <img src="./assets/statsimg1.jpg" alt="Character" className="w-auto h-96 rounded-md border-2 border-gray-700" />
           </div>
           
           <div className="w-full md:w-1/2 md:ml-8">
-            <h2 className="text-3xl font-bold mb-4 text-center md:text-left">My Skills</h2>
+            <h2 className="text-4xl font-bold mb-4 text-center md:text-left">My Skills</h2>
 
             <div className="flex flex-col space-y-6">
               <StatBar title="Next.js" value={80} onClick={() => handleStatClick("Next.js")} />
-              <StatBar title="TailwindCSS " value={90} onClick={() => handleStatClick("TailwindCSS")} />
+              <StatBar title="Tailwind " value={90} onClick={() => handleStatClick("TailwindCSS")} />
               <StatBar title="C++" value={70} onClick={() => handleStatClick("C++")} />
               <StatBar title="Python" value={85} onClick={() => handleStatClick("Python")} />
               <StatBar title="R" value={60} onClick={() => handleStatClick("R")} />
@@ -43,7 +43,7 @@ const AboutSection = () => {
 const StatBar = ({ title, value, onClick }) => {
   return (
     <div className="flex items-center">
-      <div className="w-20 mr-4">{title}</div>
+      <div className="w-20 pr-5 mr-4">{title}</div>
       <div className="relative flex-1 h-8 bg-gray-300 rounded-md cursor-pointer" onClick={onClick}>
         <div className="absolute top-0 left-0 h-full bg-blue-500 rounded-md" style={{ width: `${value}%` }}></div>
       </div>

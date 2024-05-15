@@ -16,6 +16,21 @@ const projects = [
         name: "Project 3",
         description: "Description of Project 3 goes here.",
         smallDescription: "Short description of Project 3."
+    }, 
+    {
+        name: "Project 4",
+        description: "Description of Project 1 goes here.",
+        smallDescription: "Short description of Project 1."
+    },
+    {
+        name: "Project 5",
+        description: "Description of Project 2 goes here.",
+        smallDescription: "Short description of Project 2."
+    },
+    {
+        name: "Project 6",
+        description: "Description of Project 3 goes here.",
+        smallDescription: "Short description of Project 3."
     },
     // Add more projects as needed
 ];
@@ -36,7 +51,7 @@ function ProjectStrip() {
     };
 
     return (
-        <div id="projects" className="text-white bg-blue-900 py-12">
+        <div id="projects" className="text-white bg-blue-900 h-auto py-12">
             <div className="max-w-7xl mx-auto px-4 flex flex-col justify-center items-center">
                 <h1 className="text-4xl sm:text-5xl md:text-6xl mb-12 text-center font-bold mb-4">My Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">

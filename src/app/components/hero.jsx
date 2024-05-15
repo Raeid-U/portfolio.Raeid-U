@@ -6,7 +6,7 @@ const LandingHero = () => {
       <div className="max-w-7xl mx-auto pl-4 pr-8 flex flex-col md:flex-row items-center">
         {/* Image Section */}
         <div className="md:w-1/2 mb-8 md:mb-0 md:text-right md:pr-9">
-          <img src={"/assets/heroimg1.jpg"} alt={"alt"} className="w-full border-8 md:w-3/4 lg:w-3/4 xl:w-3/3 float-right" />
+          <img src={"./assets/heroimg1.jpg"} alt={"alt"} className="w-full border-8 md:w-3/4 lg:w-3/4 xl:w-3/3 float-right" />
         </div>
         {/* Text Section */}
         <div className="md:w-1/2 md:pl-8 text-white">
