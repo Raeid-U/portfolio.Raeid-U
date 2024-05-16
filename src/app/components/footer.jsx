@@ -22,10 +22,10 @@ function Footer() {
                         <h2 className="text-2xl text-blue-900 font-bold mb-4">Got any questions?</h2>
                         <p className="text-lg text-blue-600 mb-6">Feel free to reach out. Here are some of My Socials:</p>
                         <div className="flex items-center space-x-6">
-                            <a href="https://github.com/Raeid-U"><DiGithubBadge className="w-12 h-12 text-blue-600" /></a>
-                            <a href="https://www.linkedin.com/in/raeid-usmanali/"><FaLinkedin className="w-12 h-12 text-blue-600" /></a>
-                            <button onClick={handleDiscordClick}><RxDiscordLogo className="w-12 h-12 text-blue-600 cursor-pointer" /></button>
-                            <a href="https://www.instagram.com/raeid2006/"><FaInstagram className="w-12 h-12 text-blue-600" /></a>
+                            <a href="https://github.com/Raeid-U"><DiGithubBadge className="w-12 h-12 text-blue-600 hover:text-blue-900" /></a>
+                            <a href="https://www.linkedin.com/in/raeid-usmanali/"><FaLinkedin className="w-12 h-12 text-blue-600 hover:text-blue-900" /></a>
+                            <button onClick={handleDiscordClick}><RxDiscordLogo className="w-12 h-12 text-blue-600 hover:text-blue-900 cursor-pointer" /></button>
+                            <a href="https://www.instagram.com/raeid2006/"><FaInstagram className="w-12 h-12 hover:text-blue-900 text-blue-600" /></a>
                         </div>
                     </div>
                     <div className="p-6 bg-white rounded-md shadow-md">
