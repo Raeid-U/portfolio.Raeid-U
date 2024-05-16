@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react';
+import Background from './background';
 
 const projects = [
     {
@@ -51,10 +52,12 @@ function ProjectStrip() {
     };
 
     return (
-        <div id="projects" className="text-white bg-blue-900 h-auto py-12">
+        <section id="projects">
+        <Background>
+        <div className="text-white bg-blue-900 h-auto py-12">
             <div className="max-w-7xl mx-auto px-4 flex flex-col justify-center items-center">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl mb-12 text-center font-bold mb-4">My Projects</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center">
+                <h1 className="text-4xl sm:text-5xl md:text-6xl mb-12 text-center font-bold mb-4 z-10">My Projects</h1>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center z-10">
                     {projects.map((project, index) => (
                         <div className="text-white" key={index}>
                             <ProjectCard project={project} onClick={() => handleOpenModal(project)} />
@@ -62,8 +65,8 @@ function ProjectStrip() {
                     ))}
                 </div>
             </div>
-            {/* Modal */}
             {showModal && (
+                <Background>
                 <div className="fixed inset-0 z-50 flex justify-center items-center bg-black bg-opacity-50">
                     <div className="bg-blue-900 rounded-lg overflow-hidden">
                         <div className="p-8">
@@ -78,8 +81,11 @@ function ProjectStrip() {
                         </div>
                     </div>
                 </div>
+                </Background>
             )}
         </div>
+        </Background>
+        </section>
     );
 }
 

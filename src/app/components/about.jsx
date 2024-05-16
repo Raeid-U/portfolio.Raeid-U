@@ -26,6 +26,7 @@ const AboutSection = () => {
   };
 
   return (
+    <section id="about">
     <div className="bg-gray-200 text-blue-600 min-h-screen flex justify-center items-center">
       <div className="max-w-5xl mx-auto p-8 bg-white rounded-lg shadow-md">
         <div className="flex flex-col md:flex-row justify-center items-center">
@@ -48,6 +49,7 @@ const AboutSection = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
