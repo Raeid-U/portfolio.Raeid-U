@@ -6,6 +6,7 @@ import ProjectStrip from "./components/projects";
 import TabBox from './components/tabbox';
 import Footer from './components/footer';
 import SlideUpDiv from './components/slidediv';
+import { CustomScrollBar } from './components/nav';
 
 export default function Home() {
   const scrollToSection = (sectionId) => {
@@ -19,6 +20,7 @@ export default function Home() {
         <div>
           <SlideUpDiv />
           <NavBar scrollToSection={scrollToSection} />
+          <CustomScrollBar />
           <LandingHero scrollToSection={scrollToSection} />
           <TabBox />
           <ProjectStrip />

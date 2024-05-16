@@ -1,5 +1,5 @@
-'use client'
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 
 const NavBar = ({ scrollToSection }) => {
   return (
@@ -36,3 +36,34 @@ const NavBar = ({ scrollToSection }) => {
 };
 
 export default NavBar;
+
+export const CustomScrollBar = () => {
+  const [scrollPercentage, setScrollPercentage] = useState(0);
+
+  const calculateScrollPercentage = () => {
+    const scrollableElement = document.documentElement;
+    const scrollTop = scrollableElement.scrollTop;
+    const scrollHeight = scrollableElement.scrollHeight - scrollableElement.clientHeight;
+    return (scrollTop / scrollHeight) * 100;
+  };
+
+  const handleScroll = () => {
+    const percentage = calculateScrollPercentage();
+    setScrollPercentage(percentage);
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  return (
+    <motion.div
+      className="fixed bottom-0 z-50 left-0 h-2 w-full bg-blue-600"
+      style={{ scaleX: scrollPercentage / 100 }}
+      transition={{ duration: 0.1 }}
+    />
+  );
+};
