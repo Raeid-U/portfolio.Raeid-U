@@ -16,13 +16,13 @@ export default function Home() {
   };
 
   return (
-    <div>
-        <SlideUpDiv />
-        <NavBar scrollToSection={scrollToSection} />
-        <LandingHero scrollToSection={scrollToSection} />
-        <AboutSection />
-        <ProjectStrip />
-        <Footer />
-    </div>
+        <div>
+          <SlideUpDiv />
+          <NavBar scrollToSection={scrollToSection} />
+          <LandingHero scrollToSection={scrollToSection} />
+          <AboutSection />
+          <ProjectStrip />
+          <Footer />
+        </div>
   );
 }
