@@ -9,14 +9,14 @@ const LandingHero = ({ scrollToSection }) => {
 
   return (
     <Background>
-      <section id="home">
+      <section id="home" className='overflow-hidden'>
         <div className="max-w-7xl mx-auto px-4 py-32 flex flex-col md:flex-row items-center z-8 relative">
           <div className="md:w-1/2 mb-8 md:mb-0 md:text-right md:pr-9 border-r-2 border-white pr-8" ref={containerRef}>  
               <img src={"./assets/heroimg1.jpg"} alt={"alt"} className="w-full rounded-md border-8 md:w-3/4 lg:w-3/4 xl:w-3/3 float-right" />
           </div>
           <div className="md:w-1/2 md:pl-8 text-white">
             <h1 className="text-5xl font-bold mb-4">Hi!</h1>
-            <h1 className="text-4xl font-bold mb-4">I'm Raeid</h1>
+            <h1 className="text-4xl mb-4">I'm Raeid</h1>
             <p className="text-lg mb-6">
               I'm a 17 year-old Computer Science Student currently finishing my High-School Diploma. Next year I'm going to be attending the University of Waterloo for CS! 
             </p>
@@ -26,6 +26,7 @@ const LandingHero = ({ scrollToSection }) => {
             <p className="text-lg mb-6">
               Check out some of my projects below or, if you would like to talk, hit the button to get into contact with me!
             </p>
+            
             <motion.div 
               ref={ref}
               initial={{ x: 100, opacity: 0 }} 
@@ -36,6 +37,7 @@ const LandingHero = ({ scrollToSection }) => {
             </motion.div>
           </div>
         </div>
+        
       </section>
     </Background>
   );

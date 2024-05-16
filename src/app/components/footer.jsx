@@ -53,7 +53,7 @@ function Footer() {
                                 <div className="flex flex-col space-y-4">
                                     <button className="text-xl text-blue-600 bg-gray-100 rounded-full p-3 flex items-center justify-start hover:bg-gray-300 transition duration-300">
                                         <FaPhoneAlt className="w-10 h-10 bg-gray-200 rounded-full mr-4 p-2" />
-                                        <span className="truncate">+1 (647)-572-4036</span>
+                                        <span className="truncate">+1 (647) 451-4036</span>
                                     </button>
                                     <button className="text-xl text-blue-600 bg-gray-100 rounded-full p-3 flex items-center justify-start hover:bg-gray-300 transition duration-300">
                                         <MdAlternateEmail className="w-10 h-10 bg-gray-200 rounded-full mr-4 p-2" />

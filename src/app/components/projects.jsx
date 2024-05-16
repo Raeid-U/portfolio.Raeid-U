@@ -52,11 +52,11 @@ function ProjectStrip() {
     };
 
     return (
-        <section id="projects">
+        <section id='projects'>
         <Background>
         <div className="text-white bg-blue-900 h-auto py-12">
             <div className="max-w-7xl mx-auto px-4 flex flex-col justify-center items-center">
-                <h1 className="text-4xl sm:text-5xl md:text-6xl mb-12 text-center font-bold mb-4 z-10">My Projects</h1>
+                <h1 className="text-4xl sm:text-5xl pt-10 pb-10 md:text-6xl mb-12 text-center font-bold mb-4 z-10">My Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center z-10">
                     {projects.map((project, index) => (
                         <div className="text-white" key={index}>

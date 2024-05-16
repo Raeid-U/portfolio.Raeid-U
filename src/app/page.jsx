@@ -3,7 +3,7 @@ import React from 'react';
 import NavBar from './components/nav'; 
 import LandingHero from './components/hero';
 import ProjectStrip from "./components/projects";
-import AboutSection from './components/about';
+import TabBox from './components/tabbox';
 import Footer from './components/footer';
 import SlideUpDiv from './components/slidediv';
 
@@ -20,7 +20,7 @@ export default function Home() {
           <SlideUpDiv />
           <NavBar scrollToSection={scrollToSection} />
           <LandingHero scrollToSection={scrollToSection} />
-          <AboutSection />
+          <TabBox />
           <ProjectStrip />
           <Footer />
         </div>
