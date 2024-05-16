@@ -20,7 +20,7 @@ function Footer() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
                     <div className="p-6 bg-white rounded-md shadow-md">
                         <h2 className="text-2xl text-blue-900 font-bold mb-4">Got any questions?</h2>
-                        <p className="text-lg text-blue-600 mb-6">Here are some of My Socials:</p>
+                        <p className="text-lg text-blue-600 mb-6">Feel free to reach out. Here are some of My Socials:</p>
                         <div className="flex items-center space-x-6">
                             <a href="https://github.com/Raeid-U"><DiGithubBadge className="w-12 h-12 text-blue-600" /></a>
                             <a href="https://www.linkedin.com/in/raeid-usmanali/"><FaLinkedin className="w-12 h-12 text-blue-600" /></a>

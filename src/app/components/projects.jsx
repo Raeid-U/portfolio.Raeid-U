@@ -3,34 +3,34 @@ import React, { useState } from 'react';
 
 const projects = [
     {
-        name: "Project 1",
+        name: "Hikmah Hacks",
         description: "Description of Project 1 goes here.",
-        smallDescription: "Short description of Project 1."
+        smallDescription: "Hackathon Manager"
     },
     {
-        name: "Project 2",
+        name: "Student Library System",
         description: "Description of Project 2 goes here.",
-        smallDescription: "Short description of Project 2."
+        smallDescription: "Basic HTML, CSS, JS Library System"
     },
     {
-        name: "Project 3",
+        name: "High School Grade Calculator",
         description: "Description of Project 3 goes here.",
-        smallDescription: "Short description of Project 3."
+        smallDescription: "C++ Based calculator"
     }, 
     {
-        name: "Project 4",
+        name: "Ninja Game",
         description: "Description of Project 1 goes here.",
-        smallDescription: "Short description of Project 1."
+        smallDescription: "Simple dodging game built in P5.JS "
     },
     {
-        name: "Project 5",
-        description: "Description of Project 2 goes here.",
-        smallDescription: "Short description of Project 2."
+        name: "Coming Soon!",
+        description: "Patience is a Virtue",
+        smallDescription: "Creativity takes time"
     },
     {
-        name: "Project 6",
-        description: "Description of Project 3 goes here.",
-        smallDescription: "Short description of Project 3."
+        name: "Coming Soon!",
+        description: "Patience is a Virtue",
+        smallDescription: "Creativity takes time"
     },
     // Add more projects as needed
 ];
