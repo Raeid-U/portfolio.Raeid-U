@@ -12,7 +12,7 @@ const initialTabs = [
 ];
 
 const TabBox = () => {
-  const [selectedTab, setSelectedTab] = useState(initialTabs[0]); // Set initial state to 'Skills' tab
+  const [selectedTab, setSelectedTab] = useState(initialTabs[0]); 
 
   const handleTabClick = (tab) => {
     setSelectedTab(tab);

@@ -39,20 +39,16 @@ const projects = [
         smallDescription: "Creativity takes time",
         image:"./assets/proj_hikmahhacks.png"
     },
-    // Add more projects as needed
 ];
 
 function ProjectStrip() {
     const [showModal, setShowModal] = useState(false);
     const [selectedProject, setSelectedProject] = useState(null);
-
-    // Function to handle opening the modal with the entire card
     const handleOpenModal = (project) => {
         setSelectedProject(project);
         setShowModal(true);
     };
     
-    // Function to handle closing the modal
     const handleCloseModal = () => {
         setShowModal(false);
     };
