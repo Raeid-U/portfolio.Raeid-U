@@ -6,32 +6,38 @@ const projects = [
     {
         name: "Hikmah Hacks",
         description: "Description of Project 1 goes here.",
-        smallDescription: "Hackathon Manager"
+        smallDescription: "Hackathon Manager",
+        image:"./assets/proj_hikmahhacks.png"
     },
     {
         name: "Student Library System",
         description: "Description of Project 2 goes here.",
-        smallDescription: "Basic HTML, CSS, JS Library System"
+        smallDescription: "Basic HTML, CSS, JS Library System",
+        image:"./assets/proj_hikmahhacks.png"
     },
     {
         name: "High School Grade Calculator",
         description: "Description of Project 3 goes here.",
-        smallDescription: "C++ Based calculator"
+        smallDescription: "C++ Based calculator",
+        image:"./assets/proj_hikmahhacks.png"
     }, 
     {
         name: "Ninja Game",
         description: "Description of Project 1 goes here.",
-        smallDescription: "Simple dodging game built in P5.JS "
+        smallDescription: "Simple dodging game built in P5.JS ",
+        image:"./assets/proj_hikmahhacks.png"
     },
     {
         name: "Coming Soon!",
         description: "Patience is a Virtue",
-        smallDescription: "Creativity takes time"
+        smallDescription: "Creativity takes time",
+        image:"./assets/proj_hikmahhacks.png"
     },
     {
         name: "Coming Soon!",
         description: "Patience is a Virtue",
-        smallDescription: "Creativity takes time"
+        smallDescription: "Creativity takes time",
+        image:"./assets/proj_hikmahhacks.png"
     },
     // Add more projects as needed
 ];
@@ -71,7 +77,7 @@ function ProjectStrip() {
                     <div className="bg-blue-900 rounded-lg overflow-hidden">
                         <div className="p-8">
                             <div className="flex flex-col items-center">
-                                <img className="object-cover rounded-full h-32 w-32 mb-6" src="path/to/placeholder/image.jpg" alt="Project" />
+                                <img className="object-cover rounded-full h-32 w-32 mb-6" src={selectedProject.image} alt="Project" />
                                 <p className="text-2xl font-semibold mb-4">{selectedProject.name}</p>
                                 <p className="text-lg">{selectedProject.description}</p>
                             </div>
@@ -90,13 +96,13 @@ function ProjectStrip() {
 }
 
 const ProjectCard = ({ project, onClick }) => {
-    const { name, smallDescription } = project;
+    const { name, image, smallDescription } = project;
 
     return (
         <div className="bg-white rounded-lg overflow-hidden shadow-md" onClick={onClick}>
             <img 
-                className="object-cover h-64 w-full" 
-                src="path/to/placeholder/image.jpg" 
+                className="object-cover h-auto w-auto" 
+                src={image}
                 alt={name} 
             />
             <div className="p-4">
