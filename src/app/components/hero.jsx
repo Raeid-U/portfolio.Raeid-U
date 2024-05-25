@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useRef } from 'react';
 import Background from './background';
 import { motion } from 'framer-motion';
@@ -63,7 +64,7 @@ const LandingHero = ({ scrollToSection }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 1 }}
             >
-              I'm a 17 year-old Computer Science Student currently finishing my High-School Diploma. Next year I'm going to be attending the University of Waterloo for CS!
+              {`I'm a 17 year-old Computer Science Student currently finishing my High-School Diploma. Next year I'm going to be attending the University of Waterloo for CS!`}
             </motion.p>
             <motion.p 
               className="text-lg mb-6"
@@ -71,7 +72,7 @@ const LandingHero = ({ scrollToSection }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.2, duration: 1 }}
             >
-              I am a fearless freshman with a flair for Figma. Currently my skills lie in Front-end Programming with Next.js and TailwindCSS experience. Whereas my backend skills lie in C++ and PHP.
+              {`I am a fearless freshman with a flair for Figma. Currently my skills lie in Front-end Programming with Next.js and TailwindCSS experience. Whereas my backend skills lie in C++ and PHP.`}
             </motion.p>
             <motion.p 
               className="text-lg mb-6"
@@ -79,7 +80,7 @@ const LandingHero = ({ scrollToSection }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.5, duration: 1 }}
             >
-              Check out some of my projects below or, if you would like to talk, hit the button to get into contact with me!
+              {`Check out some of my projects below or, if you would like to talk, hit the button to get into contact with me!`}
             </motion.p>
             <motion.div 
               ref={ref}
