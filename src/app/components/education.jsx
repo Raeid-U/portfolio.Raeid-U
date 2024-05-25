@@ -10,7 +10,7 @@ const EducationSection = () => {
             <EducationItem
               image="./assets/highschool.svg"
               title="High School"
-              description="I attended North Park Senior Public School in Brampton, Ontario. I completed my High School Diploma as part of the International Business and Technology program as well as the SHSM program. Huge thanks to Mr. Brown and Ms. Bailey for sparking my coding passion!"
+              description="I attended North Park Senior Public School in Brampton, Ontario. I completed my High School Diploma as part of the International Business and Technology program as well as the SHSM program."
             />
             <EducationItem
               image="./assets/university_of_waterloo.png"
@@ -31,14 +31,11 @@ const EducationSection = () => {
 
 const EducationItem = ({ image, title, description }) => {
   return (
-    <div className="flex items-center">
-      <div className="w-1/4 flex justify-middle">
-        <div className="relative h-32">
-          <img src={image} alt={title} className="w-32 left-32 h-32 object-cover rounded-md" />
-          <div className="absolute top-0 left-48 w-0.5 h-full bg-blue-600"></div>
-        </div>
+    <div className="flex items-start">
+      <div className="w-1/4 flex justify-center relative">
+        <img src={image} alt={title} className="max-w-32 max-h-32 object-contain rounded-md" />
       </div>
-      <div className="w-3/4 pl-8">
+      <div className="w-3/4 pl-8 flex flex-col justify-center max-h-32 overflow-auto">
         <h3 className="text-2xl font-bold mb-2">{title}</h3>
         <p>{description}</p>
       </div>
