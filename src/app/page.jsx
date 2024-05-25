@@ -7,6 +7,7 @@ import TabBox from './components/tabbox';
 import Footer from './components/footer';
 import SlideUpDiv from './components/slidediv';
 import { CustomScrollBar } from './components/nav';
+import Head from 'next/head';
 
 export default function Home() {
   const scrollToSection = (sectionId) => {
@@ -17,7 +18,12 @@ export default function Home() {
   };
 
   return (
-        <div>
+    <>
+      <Head>
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      </Head>
+      <html lang='en'>
+        <body>
           <SlideUpDiv />
           <NavBar scrollToSection={scrollToSection} />
           <CustomScrollBar />
@@ -25,6 +31,8 @@ export default function Home() {
           <TabBox />
           <ProjectStrip />
           <Footer />
-        </div>
+        </body>
+      </html>
+    </>
   );
 }
