@@ -20,7 +20,7 @@ const EducationSection = () => {
             <EducationItem
               image="./assets/wilfrid_laurier_university.png"
               title="Wilfrid Laurier University"
-              description="Simultaneously with the University of Waterloo, I plan to complete a Bachalors of Business Administration at Wilfrid Laurier University. Big thanks to Mr. Scorcia for guiding me into this amazing program."
+              description="Simultaneously with the University of Waterloo, I plan to complete a Bachalors of Business Administration at Wilfrid Laurier University."
             />
           </div>
         </div>
@@ -36,7 +36,7 @@ const EducationItem = ({ image, title, description }) => {
         <img src={image} alt={title} className="max-w-32 max-h-32 object-contain rounded-md" />
       </div>
       <div className="w-3/4 pl-8 flex flex-col justify-center max-h-32 overflow-auto">
-        <h3 className="text-2xl font-bold mb-2">{title}</h3>
+        <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p>{description}</p>
       </div>
     </div>
