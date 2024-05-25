@@ -47,7 +47,7 @@ const LandingHero = ({ scrollToSection }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 1 }}
             >
-              Hi!
+              {`Hi!`}
             </motion.h1>
             <motion.h1 
               className="text-2xl sm:text-3xl lg:text-4xl mb-2 ml-6 mr-6 mb-4 sm:mb-4"
@@ -55,7 +55,7 @@ const LandingHero = ({ scrollToSection }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6, duration: 1 }}
             >
-              I'm Raeid
+              {`I'm Raeid`}
             </motion.h1>
             <motion.p 
               className="text-base sm:text-lg lg:text-xl ml-6 mr-6 mb-4 sm:mb-6"
