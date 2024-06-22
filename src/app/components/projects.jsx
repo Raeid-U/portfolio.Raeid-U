@@ -7,37 +7,37 @@ const projects = [
         name: "Hikmah Hacks",
         description: "Description of Project 1 goes here.",
         smallDescription: "Hackathon Manager",
-        image:"./assets/proj_hikmahhacks.png"
+        image:"./assets/projPic1.png"
+    },
+    {
+        name: "Lofi Pomodoro Sprint Tracker",
+        description: "Description of Project 2 goes here.",
+        smallDescription: "Passion Project with React",
+        image:"./assets/projPic2.png"
     },
     {
         name: "Student Library System",
-        description: "Description of Project 2 goes here.",
-        smallDescription: "Basic HTML, CSS, JS Library System",
-        image:"./assets/proj_hikmahhacks.png"
-    },
-    {
-        name: "High School Grade Calculator",
-        description: "Description of Project 3 goes here.",
+        description: "Rudementary Website - Built in HTML, CSS, and JS",
         smallDescription: "C++ Based calculator",
-        image:"./assets/proj_hikmahhacks.png"
+        image:"./assets/projPic3.png"
     }, 
     {
-        name: "Ninja Game",
+        name: "Student Calculator App",
         description: "Description of Project 1 goes here.",
-        smallDescription: "Simple dodging game built in P5.JS ",
-        image:"./assets/proj_hikmahhacks.png"
+        smallDescription: "Prompt-Based Calculator App for Grades",
+        image:"./assets/projPic4.png"
     },
     {
-        name: "Coming Soon!",
+        name: "Ninja Game",
         description: "Patience is a Virtue",
-        smallDescription: "Creativity takes time",
-        image:"./assets/proj_hikmahhacks.png"
+        smallDescription: "Simple dodging game built in P5.JS",
+        image:"./assets/projPic5.png"
     },
     {
-        name: "Coming Soon!",
+        name: "Check out my Github!",
         description: "Patience is a Virtue",
-        smallDescription: "Creativity takes time",
-        image:"./assets/proj_hikmahhacks.png"
+        smallDescription: "All my public projects live here!",
+        image:"./assets/projPic6.png"
     },
 ];
 

@@ -34,7 +34,7 @@ const AboutSection = () => {
         <div className="max-w-5xl mx-auto p-8 bg-white rounded-lg shadow-md">
           <div className="flex flex-col md:flex-row justify-center items-center">
             <div className="w-full md:w-1/2 flex justify-center items-center">
-              <img src="./assets/statsimg1.jpg" alt="Character" className="w-auto h-96 rounded-md border-4 border-grey-300" />
+              <img src="./assets/statsimg1.jpg" alt="Character" className="hidden lg:block w-72 h-96 rounded-md border-4 border-grey-300" />
             </div>
             <div className="w-full md:w-1/2 md:ml-8">
               <h2 className="text-4xl mt-4 font-bold mb-4 text-center md:text-left">My Skills</h2>
