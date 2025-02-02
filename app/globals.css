@@ -17,3 +17,18 @@
         --offwhite: #ffffff;
     }
 }
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    display: flex;
+    animation: marquee 10s linear infinite;
+    width: 200%;
+}

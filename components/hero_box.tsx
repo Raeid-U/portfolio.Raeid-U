@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Infobox() {
+export default function HeroBox() {
   return (
     <div className="mt-8 p-6 bg-background rounded-none w-full">
       <div className="grid grid-cols-1">
