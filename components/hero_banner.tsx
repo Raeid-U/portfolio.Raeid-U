@@ -1,4 +1,4 @@
-export default function ScrollingBanner() {
+export default function HeroBanner() {
   return (
     <div className="w-full h-1/5 bg-background overflow-hidden flex items-center relative">
       <div className="animate-marquee whitespace-nowrap flex items-center space-x-10">
