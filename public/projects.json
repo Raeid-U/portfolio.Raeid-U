@@ -8,7 +8,7 @@
       "https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
       "https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white"
     ],
-    "date": "01/10/2023",
+    "date": "01/01/2025",
     "github": "https://github.com/Raeid-U/Masjid-API",
     "longdesc": "Masjid API is a general-purpose Islamic API that provides accurate Salah (prayer) times and Quranic Ayah lookup functionality. Designed for developers looking to integrate Islamic data into applications efficiently and reliably."
   },
@@ -20,7 +20,7 @@
       "https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white",
       "https://img.shields.io/badge/STDIO-FFD700?style=for-the-badge"
     ],
-    "date": "06/20/2023",
+    "date": "05/20/2024",
     "github": "https://github.com/Raeid-U/Calculator-App",
     "longdesc": "This terminal-based calculator allows students to compute scores, grades, and weighted averages using standard input-output operations. Built in C++ with optimized handling of user input for a seamless experience."
   },
@@ -33,7 +33,7 @@
       "https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white",
       "https://img.shields.io/badge/shiny-13A1DE?style=for-the-badge&logo=rshiny&logoColor=white"
     ],
-    "date": "08/24/2023",
+    "date": "08/06/2024",
     "github": "https://github.com/Raeid-U/GW2-API-Testing-0.1",
     "longdesc": "A simple interactive R Shiny app that connects to the Guild Wars 2 API to fetch and display item prices for five selected in-game items. It provides a visual representation of price trends for traders and enthusiasts."
   },
@@ -46,7 +46,7 @@
       "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
       "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
     ],
-    "date": "10/10/2023",
+    "date": "05/03/2023",
     "github": "https://github.com/Raeid-U/Library-System",
     "longdesc": "A simple library management system built using vanilla HTML, CSS, and JavaScript. Allows users to add, edit, and remove books while keeping track of available inventory."
   },
@@ -60,7 +60,7 @@
       "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
       "https://img.shields.io/badge/P5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=white"
     ],
-    "date": "02/02/2024",
+    "date": "02/02/2022",
     "github": "https://github.com/Raeid-U/Ninja-Game",
     "longdesc": "A ninja-themed platformer built using P5.js and JavaScript Canvas. Features jumping mechanics, enemy AI, and attack combos to create a full in-browser game experience."
   },

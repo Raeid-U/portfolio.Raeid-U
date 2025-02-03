@@ -4,17 +4,27 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { FaCircle } from "react-icons/fa";
 
+type Project = {
+  name: string;
+  date: string;
+  thumbnail: string;
+  stack: string[];
+  longdesc: string;
+  github: string;
+};
+
 export default function Projects() {
-  const [projects, setProjects] = useState([]);
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [projects, setProjects] = useState<Project[]>([]);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   useEffect(() => {
     fetch("/projects.json")
       .then((res) => res.json())
-      .then((data) => {
+      .then((data: Project[]) => {
         setProjects(data);
         if (data.length > 0) setSelectedProject(null);
-      });
+      })
+      .catch((err) => console.error("Error fetching projects:", err));
   }, []);
 
   return (
@@ -27,14 +37,13 @@ export default function Projects() {
               className="cursor-pointer relative"
               onClick={() => setSelectedProject(project)}
             >
-              {selectedProject && selectedProject.name === project.name && (
+              {selectedProject?.name === project.name && (
                 <div className="absolute flex items-center top-2 left-2 bg-foreground text-offwhite text-xs uppercase px-3 py-1 z-10">
                   <FaCircle className="text-red-500 mr-2" size={10} />
                   Selected
                 </div>
               )}
 
-              {/* Thumbnail */}
               <div className="w-[250px] h-[250px] overflow-hidden">
                 <Image
                   src={project.thumbnail}
