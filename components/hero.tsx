@@ -18,6 +18,7 @@ export default function Hero() {
           alt="Hero Image"
           fill
           className="object-cover w-full h-full"
+          unoptimized
         />
       </div>
     </div>

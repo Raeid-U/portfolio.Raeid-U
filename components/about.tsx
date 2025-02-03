@@ -11,6 +11,7 @@ export default function About() {
           alt="About Image"
           fill
           className="object-scale-down w-full h-full p-8"
+          unoptimized
         />
       </div>
 
