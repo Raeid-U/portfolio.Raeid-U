@@ -28,13 +28,12 @@ export default function Projects() {
               onClick={() => setSelectedProject(project)}
             >
               {selectedProject && selectedProject.name === project.name && (
-                <div className="absolute flex items-center top-2 left-2 bg-background text-offwhite text-xs uppercase px-3 py-1 z-10">
+                <div className="absolute flex items-center top-2 left-2 bg-foreground text-offwhite text-xs uppercase px-3 py-1 z-10">
                   <FaCircle className="text-red-500 mr-2" size={10} />
                   Selected
                 </div>
               )}
 
-              {/* Thumbnail */}
               <div className="w-[250px] h-[250px] overflow-hidden">
                 <Image
                   src={project.thumbnail}
@@ -45,7 +44,6 @@ export default function Projects() {
                 />
               </div>
 
-              {/* Project Info Box */}
               <div className="w-[250px] h-[150px] bg-background p-4">
                 <div className="flex flex-col justify-between">
                   <h3 className="text-lg font-semibold">{project.name}</h3>
@@ -68,17 +66,18 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="w-1/2 h-full flex items-center justify-center bg-background overflow-y-auto p-8">
+      <div className="w-1/2 h-auto flex items-center justify-center bg-foreground no-scrollbar overflow-y-auto mt-10 p-8">
         {selectedProject ? (
-          <div className="w-3/4">
-            {/* Thumbnail */}
-            <Image
-              src={selectedProject.thumbnail}
-              alt={selectedProject.name}
-              width={500}
-              height={300}
-              className="w-full"
-            />
+          <div className="w-3/4 p-4">
+            <div className="pt-4">
+              <Image
+                src={selectedProject.thumbnail}
+                alt={selectedProject.name}
+                width={500}
+                height={300}
+                className="w-full"
+              />
+            </div>
 
             <div className="flex justify-between mt-4">
               <h2 className="text-2xl">{selectedProject.name}</h2>

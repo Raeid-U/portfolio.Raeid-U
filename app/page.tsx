@@ -5,6 +5,8 @@ import HeroBanner from "../components/hero_banner";
 import About from "../components/about";
 import ProjectBanner from "../components/projects_banner";
 import Projects from "../components/projects";
+import ContactBanner from "../components/contact_banner";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -22,7 +24,10 @@ export default function Home() {
           <ProjectBanner />
           <Projects />
         </div>
-        <div id="contact"></div>
+        <div id="contact">
+          <ContactBanner />
+          <Footer />
+        </div>
       </div>
     </>
   );
