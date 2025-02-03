@@ -50,6 +50,7 @@ Visit **`http://localhost:3000`** to view the project locally.
 ---
 
 **License:** _MIT License_
-_Feel free to fork and use this as a reference._
+
+Feel free to fork and use this as a reference.
 
 ---
