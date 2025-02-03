@@ -1,12 +1,9 @@
 export default function HeroBanner() {
   return (
-    <div className="w-full h-1/5 bg-background overflow-hidden flex items-center relative">
+    <div className="w-full h-1/5 font-jetbrains bg-background overflow-hidden flex items-center relative">
       <div className="animate-marquee whitespace-nowrap flex items-center space-x-10">
         {[...Array(3)].map((_, i) => (
-          <div
-            key={i}
-            className="flex space-x-10 py-8 text-offwhite text-lg font-mono"
-          >
+          <div key={i} className="flex space-x-10 py-8 text-offwhite text-lg">
             <span>C++</span>
             <span>MongoDB</span>
             <span>Express.js</span>

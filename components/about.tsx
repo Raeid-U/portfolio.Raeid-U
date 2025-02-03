@@ -4,7 +4,7 @@ import AboutBox from "./about_box";
 export default function About() {
   return (
     <div className="flex flex-col md:flex-row w-full min-h-screen">
-      <div className="relative w-full md:w-1/2 h-[50vh] md:h-auto bg-foreground p-4">
+      <div className="flex relative w-full md:w-1/2 h-[50vh] md:h-auto bg-foreground p-4">
         <img
           src="/about_sat.JPG"
           alt="About Image"

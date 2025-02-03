@@ -29,8 +29,8 @@ export default function Projects() {
 
   return (
     <section className="w-full h-screen flex flex-col lg:flex-row bg-foreground text-offwhite">
-      <div className="w-full lg:w-1/2 h-full overflow-y-auto p-8 flex justify-center no-scrollbar mb-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-3xl">
+      <div className="w-full lg:w-2/3 h-full overflow-y-auto p-8 flex justify-center no-scrollbar mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 max-w-3xl">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -82,7 +82,7 @@ export default function Projects() {
         }`}
       >
         {selectedProject ? (
-          <div className="w-3/4 p-4">
+          <div className="w-3/4 p-4 bg-background">
             <div className="pt-4">
               <Image
                 src={selectedProject.thumbnail}

@@ -76,7 +76,7 @@ export default function Footer() {
             </div>
           </div>
         </footer>
-        <div className="bg-background text-offwhite text-sm py-6 w-full">
+        <div className="bg-background text-offwhite text-xs md:text-sm py-6 w-full">
           <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
             <p>
               &copy; 2025 <span className="text-highlight">Raeid Usmanali</span>{" "}

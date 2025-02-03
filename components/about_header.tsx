@@ -4,8 +4,11 @@ import { useState, useEffect } from "react";
 export default function AboutHeader() {
   const titles = [
     "programmer",
+    "photographer",
+    "drummer",
     "dev",
     "chirographer",
+    "muslim",
     "entrepreneur",
     "visionary",
   ];
@@ -64,7 +67,7 @@ export default function AboutHeader() {
   }, [charIndex, deleting]);
 
   return (
-    <div>
+    <div className="h-24 lg:h-48">
       <h2 className="text-xl md:text-2xl font-jetbrains">
         <span className="text-offwhite">about</span>
         <span className="text-highlight"> me</span>,

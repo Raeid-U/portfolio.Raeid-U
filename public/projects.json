@@ -13,7 +13,7 @@
     "longdesc": "Masjid API is a general-purpose Islamic API that provides accurate Salah (prayer) times and Quranic Ayah lookup functionality. Designed for developers looking to integrate Islamic data into applications efficiently and reliably."
   },
   {
-    "thumbnail": "/projects/project_0.jpg",
+    "thumbnail": "/projects/project_1.jpg",
     "name": "Calculator App",
     "shortdesc": "A student-friendly score and grade calculator.",
     "stack": [
@@ -25,7 +25,7 @@
     "longdesc": "This terminal-based calculator allows students to compute scores, grades, and weighted averages using standard input-output operations. Built in C++ with optimized handling of user input for a seamless experience."
   },
   {
-    "thumbnail": "/projects/project_0.jpg",
+    "thumbnail": "/projects/project_2.jpg",
     "name": "GW2 API Testing 0.1",
     "shortdesc": "A Shiny app to track Guild Wars 2 item prices.",
     "stack": [
@@ -38,7 +38,7 @@
     "longdesc": "A simple interactive R Shiny app that connects to the Guild Wars 2 API to fetch and display item prices for five selected in-game items. It provides a visual representation of price trends for traders and enthusiasts."
   },
   {
-    "thumbnail": "/projects/project_0.jpg",
+    "thumbnail": "/projects/project_3.jpg",
     "name": "Library System",
     "shortdesc": "A lightweight library management web app.",
     "stack": [
@@ -51,7 +51,7 @@
     "longdesc": "A simple library management system built using vanilla HTML, CSS, and JavaScript. Allows users to add, edit, and remove books while keeping track of available inventory."
   },
   {
-    "thumbnail": "/projects/project_0.jpg",
+    "thumbnail": "/projects/project_4.jpg",
     "name": "Ninja Game",
     "shortdesc": "A ninja-themed browser game using P5.js.",
     "stack": [
@@ -65,7 +65,7 @@
     "longdesc": "A ninja-themed platformer built using P5.js and JavaScript Canvas. Features jumping mechanics, enemy AI, and attack combos to create a full in-browser game experience."
   },
   {
-    "thumbnail": "/projects/project_0.jpg",
+    "thumbnail": "/projects/project_5.jpg",
     "name": "LofiModoro",
     "shortdesc": "Pomodoro timer with integrated Spotify music playback.",
     "stack": [

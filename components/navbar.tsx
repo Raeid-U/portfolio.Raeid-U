@@ -176,6 +176,16 @@ export default function Navbar() {
               >
                 contact
               </a>
+              <div className="mb-4 mt-2">
+                <a
+                  href="/raeid_resume_feb2025.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 py-8 text-offwhite hover:tracking-widest transition-all duration-700"
+                >
+                  my resumé →
+                </a>
+              </div>
             </div>
 
             <div className="flex justify-between pt-3 border-t border-foreground mt-3">

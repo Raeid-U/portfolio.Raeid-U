@@ -76,9 +76,9 @@ export default function Reimagined() {
   }, [typedText, deleting]);
 
   return (
-    <div>
+    <div className="h-48">
       {typedText.map((line, lineIndex) => (
-        <h2 key={lineIndex} className="text-xl md:text-2xl font-jetbrains">
+        <h2 key={lineIndex} className="text-xl md:text-3xl font-jetbrains">
           {line.map((letter, letterIndex) => (
             <span
               key={letterIndex}

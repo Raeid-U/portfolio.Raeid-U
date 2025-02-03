@@ -81,7 +81,7 @@ export default function AboutBox() {
 
       <div className="border border-offwhite">
         <div
-          className={`text-center p-8 font-jetbrains transition-opacity duration-300 ${isFading ? "opacity-0" : "opacity-100"}`}
+          className={`h-52 text-center p-8 font-jetbrains transition-opacity duration-300 ${isFading ? "opacity-0" : "opacity-100"}`}
         >
           <h1 className="text-lg lg:text-2xl tracking-wide font-semibold">
             {sections[currentIndex].title}
