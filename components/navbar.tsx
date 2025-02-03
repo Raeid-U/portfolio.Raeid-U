@@ -91,17 +91,17 @@ export default function Navbar() {
           <Image
             src="/center.png"
             alt="Center Icon"
-            width={expanded ? 75 : 50}
-            height={expanded ? 75 : 50}
+            width={expanded ? 60 : 50}
+            height={expanded ? 60 : 50}
             className="transition-all duration-700"
           />
         </div>
 
         <div
-          className={`flex flex-1 justify-end items-center space-x-6 sm:space-x-4 text-offwhite transition-all duration-700 ease-in-out ${
+          className={`flex flex-1 justify-end items-center space-x-6 sm:space-x-4 text-offwhite transition-all duration-600 ease-in-out ${
             expanded
               ? "opacity-100 pointer-events-auto"
-              : "opacity-0 w-0 pointer-events-none"
+              : "opacity-0 w-0 pointer-events-none hidden"
           }`}
         >
           <a
@@ -127,6 +127,15 @@ export default function Navbar() {
             className="hover:text-highlight transition-all duration-300"
           >
             <FaInstagram size={24} />
+          </a>
+          <span> | </span>
+          <a
+            href="/raeid_resume_feb2025.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-offwhite text-nowrap overflow-hidden hover:tracking-widest transition-all duration-700"
+          >
+            my resumé →
           </a>
         </div>
       </nav>

@@ -67,7 +67,7 @@ export default function AboutHeader() {
   }, [charIndex, deleting]);
 
   return (
-    <div className="h-24 lg:h-48">
+    <div className="h-24 md:h-48 w-96 p-4 backdrop-grayscale subpixel-antialiased font-bold drop-shadow-2xl bg-blend-multiply align-middle justify-center content-around">
       <h2 className="text-xl md:text-2xl font-jetbrains">
         <span className="text-offwhite">about</span>
         <span className="text-highlight"> me</span>,

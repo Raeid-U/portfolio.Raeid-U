@@ -2,7 +2,6 @@
   {
     "thumbnail": "/projects/project_0.jpg",
     "name": "Masjid API",
-    "shortdesc": "Islamic API for Salah Times and Quranic Ayah lookup.",
     "stack": [
       "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
       "https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
@@ -15,7 +14,6 @@
   {
     "thumbnail": "/projects/project_1.jpg",
     "name": "Calculator App",
-    "shortdesc": "A student-friendly score and grade calculator.",
     "stack": [
       "https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white",
       "https://img.shields.io/badge/STDIO-FFD700?style=for-the-badge"
@@ -27,7 +25,6 @@
   {
     "thumbnail": "/projects/project_2.jpg",
     "name": "GW2 API Testing 0.1",
-    "shortdesc": "A Shiny app to track Guild Wars 2 item prices.",
     "stack": [
       "https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white",
       "https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white",
@@ -40,7 +37,6 @@
   {
     "thumbnail": "/projects/project_3.jpg",
     "name": "Library System",
-    "shortdesc": "A lightweight library management web app.",
     "stack": [
       "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
       "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
@@ -53,7 +49,6 @@
   {
     "thumbnail": "/projects/project_4.jpg",
     "name": "Ninja Game",
-    "shortdesc": "A ninja-themed browser game using P5.js.",
     "stack": [
       "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
       "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
@@ -67,7 +62,6 @@
   {
     "thumbnail": "/projects/project_5.jpg",
     "name": "LofiModoro",
-    "shortdesc": "Pomodoro timer with integrated Spotify music playback.",
     "stack": [
       "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
       "https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white",

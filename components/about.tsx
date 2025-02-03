@@ -3,20 +3,27 @@ import AboutBox from "./about_box";
 
 export default function About() {
   return (
-    <div className="flex flex-col md:flex-row w-full min-h-screen">
-      <div className="flex relative w-full md:w-1/2 h-[50vh] md:h-auto bg-foreground p-4">
+    <div className="relative w-full min-h-screen flex flex-col align-middle content-center items-center justify-center">
+      <div className="absolute top-0 left-0 w-1/2 h-full hidden md:block">
+        <img
+          src="/about_sat.JPG"
+          alt="About Image"
+          className="object-cover object-middle w-full h-full"
+        />
+      </div>
+      <div className="absolute top-0 right-0 w-1/2 h-full bg-foreground hidden md:block"></div>
+
+      <div className="relative z-10 flex flex-col items-center text-center space-y-6 w-5/6 lg:w-3/4 text-offwhite">
+        <AboutHeader />
+        <AboutBox />
+      </div>
+
+      <div className="relative items-center w-full md:hidden">
         <img
           src="/about_sat.JPG"
           alt="About Image"
           className="object-scale-down w-full h-full p-8"
         />
-      </div>
-
-      <div className="flex flex-col justify-center items-center bg-foreground text-offwhite p-8 w-full md:w-1/2">
-        <div className="w-5/6 lg:w-3/4 flex flex-col items-center text-center space-y-6">
-          <AboutHeader />
-          <AboutBox />
-        </div>
       </div>
     </div>
   );

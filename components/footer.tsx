@@ -87,7 +87,7 @@ export default function Footer() {
                 href="/legal/disclaimer.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-highlight transition"
+                className="hover:tracking-widest transition-all duration-700"
               >
                 Disclaimer
               </a>
@@ -96,7 +96,7 @@ export default function Footer() {
                 href="/legal/privacy-policy.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-highlight transition"
+                className="hover:tracking-widest transition-all duration-700"
               >
                 Privacy Policy
               </a>
