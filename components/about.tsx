@@ -1,4 +1,3 @@
-import Image from "next/image";
 import AboutHeader from "./about_header";
 import AboutBox from "./about_box";
 
@@ -6,12 +5,10 @@ export default function About() {
   return (
     <div className="flex flex-col md:flex-row w-full min-h-screen">
       <div className="relative w-full md:w-1/2 h-[50vh] md:h-auto bg-foreground p-4">
-        <Image
+        <img
           src="/about_sat.jpg"
           alt="About Image"
-          fill
           className="object-scale-down w-full h-full p-8"
-          unoptimized
         />
       </div>
 

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroBox from "./hero_box";
 import Reimagined from "./reimagined";
 
@@ -13,12 +12,10 @@ export default function Hero() {
       </div>
 
       <div className="relative w-full md:w-1/2 h-[50vh] md:h-auto">
-        <Image
+        <img
           src="/hero_sat.jpg"
           alt="Hero Image"
-          fill
           className="object-cover w-full h-full"
-          unoptimized
         />
       </div>
     </div>
