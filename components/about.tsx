@@ -6,7 +6,7 @@ export default function About() {
     <div className="flex flex-col md:flex-row w-full min-h-screen">
       <div className="relative w-full md:w-1/2 h-[50vh] md:h-auto bg-foreground p-4">
         <img
-          src="/about_sat.jpg"
+          src="/about_sat.JPG"
           alt="About Image"
           className="object-scale-down w-full h-full p-8"
         />

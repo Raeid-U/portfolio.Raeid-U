@@ -13,7 +13,7 @@ export default function Hero() {
 
       <div className="relative w-full md:w-1/2 h-[50vh] md:h-auto">
         <img
-          src="/hero_sat.jpg"
+          src="/hero_sat.JPG"
           alt="Hero Image"
           className="object-cover w-full h-full"
         />
