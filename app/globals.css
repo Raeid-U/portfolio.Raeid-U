@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-foreground;
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
+:root {
+    --background: #1e1e1e;
+    --foreground: #2f2f2f;
+    --highlight: #35f4a6; /* #00AFB9 */
+    --offwhite: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #1e1e1e;
+        --foreground: #2f2f2f;
+        --highlight: #35f4a6;
+        --offwhite: #ffffff;
+    }
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.animate-marquee {
+    display: flex;
+    animation: marquee 10s linear infinite;
+    width: 200%;
+}
