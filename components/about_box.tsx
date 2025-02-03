@@ -83,10 +83,10 @@ export default function AboutBox() {
         <div
           className={`text-center p-8 font-jetbrains transition-opacity duration-300 ${isFading ? "opacity-0" : "opacity-100"}`}
         >
-          <h1 className="text-2xl tracking-wide font-semibold">
+          <h1 className="text-lg lg:text-2xl tracking-wide font-semibold">
             {sections[currentIndex].title}
           </h1>
-          <div className="mt-4 text-md leading-relaxed">
+          <div className="mt-4 text-sm lg:text-md leading-relaxed">
             {sections[currentIndex].content}
           </div>
         </div>

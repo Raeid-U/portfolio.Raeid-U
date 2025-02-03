@@ -4,23 +4,22 @@ import AboutBox from "./about_box";
 
 export default function About() {
   return (
-    <section className="flex w-full h-screen">
-      <div className="w-1/2 h-full relative">
+    <div className="flex flex-col md:flex-row w-full min-h-screen">
+      <div className="relative w-full md:w-1/2 h-[50vh] md:h-auto bg-foreground p-4">
         <Image
           src="/about_sat.jpg"
-          alt="Hero Image"
-          layout="fill"
-          objectFit="scale-down"
-          className="w-full h-full p-4 bg-foreground"
+          alt="About Image"
+          fill
+          className="object-scale-down w-full h-full p-8"
         />
       </div>
-      <div className="w-1/2 h-full bg-foreground flex items-center justify-center text-offwhite">
-        <div className="w-3/4 flex flex-col items-center text-center mt-16">
-          <AboutHeader />
 
+      <div className="flex flex-col justify-center items-center bg-foreground text-offwhite p-8 w-full md:w-1/2">
+        <div className="w-5/6 lg:w-3/4 flex flex-col items-center text-center space-y-6">
+          <AboutHeader />
           <AboutBox />
         </div>
       </div>
-    </section>
+    </div>
   );
 }

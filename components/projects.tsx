@@ -13,14 +13,14 @@ export default function Projects() {
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
-        if (data.length > 0) setSelectedProject(data[0]);
+        if (data.length > 0) setSelectedProject(null);
       });
   }, []);
 
   return (
-    <section className="w-full h-screen flex bg-foreground text-offwhite">
-      <div className="w-1/2 h-full overflow-y-auto p-8 no-scrollbar">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
+    <section className="w-full h-screen flex flex-col lg:flex-row bg-foreground text-offwhite">
+      <div className="w-full lg:w-1/2 h-full overflow-y-auto p-8 flex justify-center no-scrollbar mb-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 max-w-3xl">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -34,6 +34,7 @@ export default function Projects() {
                 </div>
               )}
 
+              {/* Thumbnail */}
               <div className="w-[250px] h-[250px] overflow-hidden">
                 <Image
                   src={project.thumbnail}
@@ -66,7 +67,11 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="w-1/2 h-auto flex items-center justify-center bg-foreground no-scrollbar overflow-y-auto mt-10 p-8">
+      <div
+        className={`w-full lg:w-1/2 h-auto flex items-center justify-center bg-foreground overflow-y-auto mt-10 p-8 transition-all duration-500 no-scrollbar ${
+          selectedProject ? "lg:flex" : "hidden lg:flex"
+        }`}
+      >
         {selectedProject ? (
           <div className="w-3/4 p-4">
             <div className="pt-4">
@@ -111,35 +116,44 @@ export default function Projects() {
             </button>
           </div>
         ) : (
-          <p className="text-gray-500">Select a project to view details</p>
+          <p className="text-gray-500 text-center">No project selected</p>
         )}
       </div>
 
       {selectedProject && (
-        <div className="fixed inset-x-4 bottom-4 h-[90%] bg-background p-6 text-offwhite md:hidden overflow-y-auto border border-offwhite">
-          <button
-            className="absolute top-4 right-4 text-xl"
+        <>
+          <div
+            className="fixed lg:hidden inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-50"
             onClick={() => setSelectedProject(null)}
-          >
-            ✕
-          </button>
+          ></div>
 
-          <Image
-            src={selectedProject.thumbnail}
-            alt={selectedProject.name}
-            width={500}
-            height={300}
-            className="w-full"
-          />
-          <h2 className="text-2xl mt-4">{selectedProject.name}</h2>
-          <span className="text-gray-400">{selectedProject.date}</span>
-          <div className="flex space-x-2 mt-3 overflow-x-auto scrollbar-hide">
-            {selectedProject.stack.map((badge, idx) => (
-              <img key={idx} src={badge} alt="Tech Badge" className="h-6" />
-            ))}
+          <div className="fixed inset-x-4 bottom-4 h-[90%] bg-background p-6 text-offwhite lg:hidden overflow-y-auto transition-transform duration-500 no-scrollbar ease-in-out z-50">
+            <button
+              className="absolute top-4 right-4 text-xl"
+              onClick={() => setSelectedProject(null)}
+            >
+              ✕
+            </button>
+
+            <div className="mt-10">
+              <Image
+                src={selectedProject.thumbnail}
+                alt={selectedProject.name}
+                width={500}
+                height={300}
+                className="w-full"
+              />
+              <h2 className="text-2xl mt-4">{selectedProject.name}</h2>
+              <span className="text-gray-400">{selectedProject.date}</span>
+              <div className="flex space-x-2 mt-3 overflow-x-auto scrollbar-hide">
+                {selectedProject.stack.map((badge, idx) => (
+                  <img key={idx} src={badge} alt="Tech Badge" className="h-6" />
+                ))}
+              </div>
+              <p className="mt-4">{selectedProject.longdesc}</p>
+            </div>
           </div>
-          <p className="mt-4">{selectedProject.longdesc}</p>
-        </div>
+        </>
       )}
     </section>
   );
