@@ -19,18 +19,18 @@ export default function HeroBox() {
   return (
     <div className="mt-8 p-6 bg-background rounded-none w-full">
       <div className="grid grid-cols-1">
-        <p className="text-4xl font-lateef text-center">سلام</p>
+        <p className="text-4xl font-lateef text-offwhite text-center">سلام</p>
         <p className="text-right font-jetbrains text-offwhite">{`</>`}</p>
       </div>
 
-      <div className="border p-8 font-jetbrains">
+      <div className="border p-8 text-offwhite font-jetbrains">
         <h1 className="text-lg md:text-xl tracking-wide font-semibold mt-2">
-          I’m <span className="text-highlight">Raeid</span>
+          i’m <span className="text-highlight">raeid</span>
         </h1>
 
         <p className="mt-4 text-sm md:text-md leading-relaxed">
           full stack dev, travel, cloud computing, finance, chirography,
-          automation, drumming, photography
+          photography
         </p>
 
         <p className="mt-8 text-sm">i’ve got a lot of interests</p>

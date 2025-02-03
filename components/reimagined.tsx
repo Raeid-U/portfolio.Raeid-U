@@ -76,7 +76,7 @@ export default function Reimagined() {
   }, [typedText, deleting]);
 
   return (
-    <div className="h-48">
+    <div className="h-24 w-48 md:w-96 p-4 font-bold backdrop-grayscale subpixel-antialiased bg-blend-multiply align-middle justify-center content-around">
       {typedText.map((line, lineIndex) => (
         <h2 key={lineIndex} className="text-xl md:text-3xl font-jetbrains">
           {line.map((letter, letterIndex) => (
