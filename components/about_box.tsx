@@ -90,9 +90,16 @@ export default function AboutBox() {
             {sections[currentIndex].content}
           </div>
         </div>
-        <button className="mt-6 px-4 py-2 mb-4 text-offwhite hover:tracking-widest transition-all duration-700">
-          my resumé →
-        </button>
+        <div className="mb-4">
+          <a
+            href="/raeid_resume_feb2025.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 px-4 py-8 mb-4 text-offwhite hover:tracking-widest transition-all duration-700"
+          >
+            my resumé →
+          </a>
+        </div>
       </div>
 
       <div className="flex justify-center mt-4 space-x-2">

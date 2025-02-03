@@ -15,15 +15,21 @@ export default function Footer() {
       <div>
         <footer className="bg-foreground text-offwhite py-12">
           <div className="container mx-auto px-6 md:px-12 lg:px-20">
-            <h2 className="text-center text-2xl font-bold text-offwhite mb-10">
-              work with me
-            </h2>
-
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
               <div className="bg-background p-6">
                 <h3 className="text-lg font-bold text-highlight mb-2">
                   Got any questions?
                 </h3>
+                <div className="mb-4 mt-2">
+                  <a
+                    href="/raeid_resume_feb2025.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 py-8 text-offwhite hover:tracking-widest transition-all duration-700"
+                  >
+                    my resumé →
+                  </a>
+                </div>
                 <p className="text-sm mb-4">
                   Feel free to reach out. Here are some of my socials:
                 </p>
