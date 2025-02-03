@@ -11,7 +11,7 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <>
-      <div className="bg-transparent w-full align-middle items-center font-jetbrains justify-center">
+      <div className="bg-foreground w-full align-middle items-center font-jetbrains justify-center">
         <Navbar />
         <div id="home">
           <Hero />

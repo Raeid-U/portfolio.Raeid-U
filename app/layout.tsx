@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${jetBrainsMono.variable} ${lateef.variable}`}>
-      <body>{children}</body>
+      <body className="bg-foreground min-h-screen w-full">{children}</body>
     </html>
   );
 }
