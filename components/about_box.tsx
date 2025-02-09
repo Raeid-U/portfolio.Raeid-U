@@ -21,6 +21,11 @@ export default function AboutBox() {
       title: "currently",
       content: (
         <>
+          <p className="line-through">
+            {" "}
+            single <span className="text-highlight">asf</span>{" "}
+          </p>
+          <p> &nbsp; </p>
           <p>
             working as a{" "}
             <span className="text-highlight">data science intern</span> at IFC,
@@ -33,7 +38,11 @@ export default function AboutBox() {
       title: "open to work in",
       content: (
         <>
-          <p>finance, data science, web dev, and business solutions</p>
+          <p>finance, data science, web dev, and business solutions </p>
+          <p>&nbsp;</p>
+          <p>
+            feel free to <span className="text-highlight">reach out</span>.
+          </p>
         </>
       ),
     },

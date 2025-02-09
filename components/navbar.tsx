@@ -40,11 +40,11 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`hidden md:flex fixed z-50 top-0 left-1/2 transform -translate-x-1/2 mt-8 items-center justify-between drop-shadow-2xl
+        className={`hidden lg:flex fixed z-50 transform top-0 left-1/2 -translate-x-1/2 mt-8 items-center justify-between drop-shadow-2xl
         transition-all duration-700 ease-in-out ${
           expanded
             ? "w-3/4 px-8 py-4 bg-background"
-            : "w-1/4 px-4 py-2 bg-transparent"
+            : "w-1/5 px-8 py-2 bg-transparent"
         } rounded-full`}
       >
         <div
@@ -52,7 +52,7 @@ export default function Navbar() {
             expanded
               ? "opacity-100 space-x-10 sm:space-x-6 pointer-events-auto"
               : "opacity-0 w-0 pointer-events-none"
-          } text-offwhite text-md font-mono tracking-wider`}
+          } text-offwhite xl:text-md md:text-sm text-xs font-mono tracking-wider`}
         >
           <a
             href="#home"
@@ -85,7 +85,7 @@ export default function Navbar() {
         </div>
 
         <div
-          className="absolute left-1/2 transform -translate-x-1/2 -top-3 rounded-full bg-background p-2 shadow-lg cursor-pointer"
+          className="absolute left-1/2 transform -translate-x-1/2 -top-3 rounded-full bg-background p-2 cursor-pointer"
           onClick={() => setExpanded(!expanded)}
         >
           <Image
@@ -110,7 +110,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="hover:text-highlight transition-all duration-300"
           >
-            <FaGithub size={24} />
+            <FaGithub size={20} />
           </a>
           <a
             href="https://www.linkedin.com/in/raeid-usmanali/"
@@ -118,7 +118,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="hover:text-highlight transition-all duration-300"
           >
-            <FaLinkedin size={24} />
+            <FaLinkedin size={20} />
           </a>
           <a
             href="https://www.instagram.com/raeid2006/"
@@ -126,7 +126,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="hover:text-highlight transition-all duration-300"
           >
-            <FaInstagram size={24} />
+            <FaInstagram size={20} />
           </a>
           <span> | </span>
           <a
@@ -140,16 +140,22 @@ export default function Navbar() {
         </div>
       </nav>
 
-      <div className="md:hidden fixed top-4 right-4 z-50">
+      <div className="lg:hidden fixed top-4 right-4 z-50">
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}
-          className="bg-background p-3 rounded-full shadow-lg focus:outline-none"
+          className="bg-background p-2 rounded-full shadow-lg focus:outline-none"
         >
-          <Image src="/center.png" alt="Center Icon" width={40} height={40} />
+          <Image
+            src="/center.png"
+            alt="Center Icon"
+            width={dropdownOpen ? 60 : 50}
+            height={dropdownOpen ? 60 : 50}
+            className="transition-all duration-700"
+          />
         </button>
 
         {dropdownOpen && (
-          <div className="absolute right-0 mt-4 w-48 bg-background text-offwhite shadow-xl p-4 z-50">
+          <div className="absolute right-0 mt-2 w-48 bg-background text-offwhite shadow-xl p-4 z-50 transition-all duration-700">
             <div className="flex items-center space-x-2 pb-3">
               <span className="text-sm text-gray-400">
                 {new Date().toDateString()}
