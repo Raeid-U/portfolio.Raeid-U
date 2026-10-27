@@ -5,17 +5,18 @@ export default function HeroBanner() {
         {[...Array(3)].map((_, i) => (
           <div key={i} className="flex space-x-10 py-8 text-offwhite text-lg">
             <span>C++</span>
-            <span>MongoDB</span>
+            <span>Postgres</span>
             <span>Express.js</span>
-            <span>React</span>
+            <span>Linux</span>
             <span>Next.js</span>
             <span>Node.js</span>
             <span>Typescript</span>
+            <span>TailwindCSS</span>
             <span>C</span>
             <span>SQL</span>
-            <span>Shiny</span>
-            <span>R</span>
-            <span>TailwindCSS</span>
+            <span>Rust</span>
+            <span>docker</span>
+            <span>local-AI</span>
           </div>
         ))}
       </div>

@@ -8,5 +8,5 @@
   <rect x="677" y="446" width="239" height="58" rx="8" fill="#3b82f6"/><text x="742" y="483" fill="white" font-family="Arial,sans-serif" font-size="22" font-weight="700">Take Photo</text>
   <text x="81" y="690" fill="#f2f5f8" font-family="Arial,sans-serif" font-size="24" font-weight="700">Captured pages</text>
   <g font-family="monospace" font-size="18" fill="#c5cdd8"><rect x="80" y="718" width="836" height="48" rx="5" fill="#292f3b"/><text x="105" y="749">001.ARW</text><text x="785" y="749">Retake</text><rect x="80" y="776" width="836" height="48" rx="5" fill="#292f3b"/><text x="105" y="807">002.ARW</text><text x="785" y="807">Retake</text></g>
-  <rect x="659" y="845" width="257" height="66" rx="8" fill="#39a872"/><text x="688" y="887" fill="white" font-family="Arial,sans-serif" font-size="21" font-weight="700">Export Book as ZIP</text>
+  <rect x="659" y="837" width="257" height="42" rx="8" fill="#39a872"/><text x="688" y="866" fill="white" font-family="Arial,sans-serif" font-size="19" font-weight="700">Export Book as ZIP</text>
 </svg>

@@ -21,10 +21,7 @@ export default function AboutBox() {
       title: "currently",
       content: (
         <>
-          <p className="line-through">
-            {" "}
-            single <span className="text-highlight">asf</span>{" "}
-          </p>
+
           <p> &nbsp; </p>
           <p>
             working as a{" "}

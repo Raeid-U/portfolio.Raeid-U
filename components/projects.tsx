@@ -110,9 +110,15 @@ export default function Projects() {
             </div>
           </div>
         ) : (
-          <p className="text-offwhite text-center">
-            Select a project to view details
-          </p>
+          <div className="self-center w-full max-w-sm  p-8 text-center">
+            <h2 className="mt-4 text-xl font-semibold">No project selected</h2>
+            <p className="mt-2 text-sm text-gray-400">
+              Choose a project from the grid to see its details here.
+            </p>
+            <span className="mt-6 block text-highlight" aria-hidden="true">
+              ←
+            </span>
+          </div>
         )}
       </div>
 
