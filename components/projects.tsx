@@ -1,14 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Image from "next/image";
-import { FaCircle } from "react-icons/fa";
+import { useEffect, useState } from "react";
 
 type Project = {
   name: string;
   date: string;
   thumbnail: string;
   stack: string[];
+  shortdesc: string;
   longdesc: string;
   github: string;
 };
@@ -19,153 +19,155 @@ export default function Projects() {
 
   useEffect(() => {
     fetch("/projects.json")
-      .then((res) => res.json())
-      .then((data: Project[]) => {
-        setProjects(data);
-        setSelectedProject(null);
-      })
-      .catch((err) => console.error("Error fetching projects:", err));
+      .then((response) => response.json())
+      .then((data: Project[]) => setProjects(data))
+      .catch((error) => console.error("Error fetching projects:", error));
   }, []);
 
-  return (
-    <section className="w-full h-screen overflow-hidden flex flex-col lg:flex-row bg-foreground text-offwhite">
-      <div className="w-full lg:w-2/3 h-full overflow-y-auto no-scrollbar p-8 flex justify-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-10 gap-y-0 max-w-4xl pb-10">
-          {projects.map((project, index) => (
-            <div key={index} className="bg-foreground pb-10">
-              <div
-                className="cursor-pointer"
-                onClick={() => setSelectedProject(project)}
-              >
-                <div className="relative">
-                  {selectedProject?.name === project.name && (
-                    <div className="absolute top-2 left-2 bg-foreground text-offwhite text-xs uppercase px-3 py-1 z-10 flex items-center">
-                      <FaCircle className="text-highlight mr-2" size={10} />
-                      Selected
-                    </div>
-                  )}
-                  <div className="w-[250px] h-[250px] overflow-hidden">
-                    <Image
-                      src={project.thumbnail}
-                      alt={project.name}
-                      width={250}
-                      height={250}
-                      className="object-cover transition-transform duration-300 hover:scale-105"
-                    />
-                  </div>
-                  <div className="w-[250px] h-[150px] bg-background p-4 shadow-sm">
-                    <h3 className="text-lg font-semibold">{project.name}</h3>
-                    <span className="text-sm text-gray-400">
-                      {project.date}
-                    </span>
-                    <div className="flex space-x-2 mt-3 overflow-x-auto no-scrollbar">
-                      {project.stack.map((badge, idx) => (
-                        <img
-                          key={idx}
-                          src={badge}
-                          alt="Tech Badge"
-                          className="h-6"
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
+  useEffect(() => {
+    if (!selectedProject) return;
 
-      <div className="hidden lg:flex w-full lg:w-1/2 h-full overflow-y-auto no-scrollbar items-start justify-center bg-background p-8 transition-all duration-500">
-        {selectedProject ? (
-          <div className="w-full max-w-lg p-6 bg-background">
-            <div className="overflow-hidden">
+    const previousOverflow = document.body.style.overflow;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setSelectedProject(null);
+    };
+
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", closeOnEscape);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [selectedProject]);
+
+  return (
+    <section className="w-full bg-foreground px-6 py-14 text-offwhite sm:px-8 lg:px-12 lg:py-20">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+        {projects.map((project) => (
+          <button
+            key={project.name}
+            type="button"
+            onClick={() => setSelectedProject(project)}
+            className="group min-w-0 overflow-hidden bg-background text-left shadow-sm outline-none transition-transform duration-300 hover:-translate-y-1 focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-4 focus-visible:ring-offset-foreground"
+            aria-label={`View details for ${project.name}`}
+          >
+            <div className="relative hidden aspect-[16/10] overflow-hidden bg-foreground sm:block">
               <Image
-                src={selectedProject.thumbnail}
-                alt={selectedProject.name}
-                width={500}
-                height={300}
-                className="w-full h-auto object-cover"
+                src={project.thumbnail}
+                alt=""
+                fill
+                sizes="(min-width: 1280px) 30vw, (min-width: 768px) 45vw, 100vw"
+                className="object-cover transition-transform duration-500 group-hover:scale-[1.03]"
               />
             </div>
-            <div className="flex justify-between mt-4 items-center">
-              <h2 className="text-2xl font-bold">{selectedProject.name}</h2>
-              <span className="text-gray-400">{selectedProject.date}</span>
+
+            <div className="flex min-h-[210px] flex-col p-5 sm:p-6">
+              <div className="flex items-start justify-between gap-4">
+                <h3 className="text-xl font-semibold leading-tight">
+                  {project.name}
+                </h3>
+                <span
+                  className="shrink-0 text-highlight transition-transform duration-300 group-hover:translate-x-1"
+                  aria-hidden="true"
+                >
+                  →
+                </span>
+              </div>
+              <span className="mt-2 font-mono text-sm text-gray-400">
+                {project.date}
+              </span>
+              <p className="mt-4 leading-6 text-gray-300">
+                {project.shortdesc}
+              </p>
+              <div className="no-scrollbar mt-auto flex gap-2 overflow-x-auto pt-5">
+                {project.stack.map((badge) => (
+                  <img
+                    key={badge}
+                    src={badge}
+                    alt="Technology badge"
+                    className="h-6 shrink-0"
+                  />
+                ))}
+              </div>
             </div>
-            <div className="flex space-x-2 mt-3 overflow-x-auto no-scrollbar">
-              {selectedProject.stack.map((badge, idx) => (
-                <img key={idx} src={badge} alt="Tech Badge" className="h-6" />
-              ))}
-            </div>
-            <p className="mt-4 text-justify">{selectedProject.longdesc}</p>
-            <div className="mt-6 flex space-x-4">
-              <a
-                href={selectedProject.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-offwhite text-nowrap overflow-hidden hover:tracking-widest transition-all duration-700"
-              >
-                Check it out on GitHub →
-              </a>
-            </div>
-          </div>
-        ) : (
-          <div className="self-center w-full max-w-sm  p-8 text-center">
-            <h2 className="mt-4 text-xl font-semibold">No project selected</h2>
-            <p className="mt-2 text-sm text-gray-400">
-              Choose a project from the grid to see its details here.
-            </p>
-            <span className="mt-6 block text-highlight" aria-hidden="true">
-              ←
-            </span>
-          </div>
-        )}
+          </button>
+        ))}
       </div>
 
       {selectedProject && (
-        <>
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-black/75 p-4 backdrop-blur-sm sm:p-8"
+          onMouseDown={(event) => {
+            if (event.currentTarget === event.target) setSelectedProject(null);
+          }}
+        >
           <div
-            className="fixed lg:hidden inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-50"
-            onClick={() => setSelectedProject(null)}
-          ></div>
-          <div className="fixed inset-x-4 bottom-4 h-[90%] bg-background p-6 text-offwhite lg:hidden overflow-y-auto no-scrollbar transition-transform duration-500 ease-in-out z-50 ">
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="project-dialog-title"
+            className="relative my-auto w-full max-w-6xl overflow-hidden bg-background shadow-2xl"
+          >
             <button
-              className="absolute top-4 right-4 text-xl"
+              type="button"
+              autoFocus
               onClick={() => setSelectedProject(null)}
+              className="absolute right-4 top-4 z-10 grid h-8 font-bold w-8 place-items-center bg-background text-lg text-offwhite backdrop-blur-none transition-colors hover:bg-highlight hover:text-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-highlight"
+              aria-label="Close project details"
             >
               ✕
             </button>
-            <div className="mt-10">
-              <Image
-                src={selectedProject.thumbnail}
-                alt={selectedProject.name}
-                width={500}
-                height={300}
-                className="w-full h-auto object-cover "
-              />
-              <h2 className="text-2xl mt-4 font-bold">
-                {selectedProject.name}
-              </h2>
-              <span className="text-gray-400">{selectedProject.date}</span>
-              <div className="flex space-x-2 mt-3 overflow-x-auto no-scrollbar">
-                {selectedProject.stack.map((badge, idx) => (
-                  <img key={idx} src={badge} alt="Tech Badge" className="h-6" />
-                ))}
+
+            <div className="grid lg:grid-cols-[minmax(0,3fr)_minmax(360px,2fr)]">
+              <div className="relative aspect-square min-h-64 overflow-hidden bg-foreground lg:min-h-[600px]">
+                <Image
+                  src={selectedProject.thumbnail}
+                  alt={`${selectedProject.name} project preview`}
+                  fill
+                  sizes="(min-width: 1024px) 45vw, 100vw"
+                  className="object-contain"
+                  priority
+                />
               </div>
-              <p className="mt-4 text-justify">{selectedProject.longdesc}</p>
-              <div className="mt-6">
+
+              <div className="flex flex-col p-6 sm:p-10 lg:p-12">
+                <span className="font-mono text-sm text-gray-400">
+                  {selectedProject.date}
+                </span>
+                <h2
+                  id="project-dialog-title"
+                  className="mt-3 pr-10 text-3xl font-bold leading-tight sm:text-4xl"
+                >
+                  {selectedProject.name}
+                </h2>
+
+                <div className="no-scrollbar mt-6 flex gap-2 overflow-x-auto">
+                  {selectedProject.stack.map((badge) => (
+                    <img
+                      key={badge}
+                      src={badge}
+                      alt="Technology badge"
+                      className="h-7 shrink-0"
+                    />
+                  ))}
+                </div>
+
+                <p className="mt-8 leading-7 text-gray-200">
+                  {selectedProject.longdesc}
+                </p>
+
                 <a
                   href={selectedProject.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-offwhite text-nowrap overflow-hidden hover:tracking-widest transition-all duration-700"
+                  className="mt-10 inline-flex w-fit items-center gap-3 border-b border-highlight pb-1 text-offwhite transition-all duration-300 hover:gap-5"
                 >
-                  Check it out on GitHub →
+                  View on GitHub <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
           </div>
-        </>
+        </div>
       )}
     </section>
   );

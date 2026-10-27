@@ -9,6 +9,7 @@
     ],
     "date": "10/27/2026",
     "github": "https://github.com/Raeid-U/secThing",
+    "shortdesc": "Local-first research grounded in preserved SEC filings.",
     "longdesc": "[WIP] secThing is a self-hosted, local-AI powered, evidence-first SEC filing research workbench in a usable working state. It preserves primary filings, extracts and indexes passages, supports exact-word, semantic, and hybrid company-scoped search, and pairs results with their original source. Its grounded research assistant returns citation-validated answers and keeps evidence limitations visible."
   },
   {
@@ -21,6 +22,7 @@
     ],
     "date": "10/26/2026",
     "github": "https://github.com/Raeid-U/RedactThis",
+    "shortdesc": "Local AI redaction before sensitive text leaves your machine.",
     "longdesc": "A self-hosted, local-AI powered, safety layer for text shared with external AI services. RedactThis combines deterministic Go detectors with a local SmolLM2 model and an independent verification pass, replacing sensitive values with stable typed placeholders. It ships as one Go binary with a private llama.cpp sidecar and stores no requests, analytics, or placeholder mappings."
   },
   {
@@ -33,6 +35,7 @@
     ],
     "date": "10/26/2026",
     "github": "https://github.com/Raeid-U/SkyForger",
+    "shortdesc": "Live market intelligence for Hypixel SkyBlock forge planning.",
     "longdesc": "A Hypixel SkyBlock forge companion for comparing profitable recipes, expanding nested crafting trees, and tracking active forge slots. SkyForger combines live Bazaar and Auction House evidence with profile progression, inventory checks, and a maintained catalog of more than 150 forge and gemstone recipes while making uncertain or missing market data explicit."
   },
   {
@@ -45,6 +48,7 @@
     ],
     "date": "10/23/2026",
     "github": "https://github.com/Raeid-U/favicon-kit",
+    "shortdesc": "Complete favicon packages generated entirely in your browser.",
     "longdesc": "A dependency-free favicon generator that runs entirely in the browser. It turns one square PNG into a real multi-image ICO, Apple and Android icons, a web manifest, and ready-to-paste HTML, then packages everything into a ZIP without uploading the source image or relying on a backend."
   },
   {
@@ -57,6 +61,7 @@
     ],
     "date": "10/05/2026",
     "github": "https://github.com/Raeid-U/solaris",
+    "shortdesc": "Prayer times and Quranic verses through one API.",
     "longdesc": "An Express API for mathematical Salah time calculation and Quranic verse retrieval. Solaris accepts coordinates, dates, and time zones for daily prayer schedules, and provides configurable Arabic text, translations, and transliterations for individual ayat or ranges through a compact HTTP interface."
   },
   {
@@ -68,6 +73,7 @@
     ],
     "date": "11/05/2025",
     "github": "https://github.com/Raeid-U/pcsv",
+    "shortdesc": "Readable, validated CSV tables directly in your terminal.",
     "longdesc": "A focused C++ command-line utility that makes CSV files readable without leaving the terminal. Peek CSV validates structure, explains malformed rows with a nearby data window, reports file metadata, and renders padded, centered tables with formatting controls suited to piping through less for large datasets."
   },
   {
@@ -80,6 +86,7 @@
     ],
     "date": "10/22/2025",
     "github": "https://github.com/Raeid-U/bookThing",
+    "shortdesc": "High-throughput camera capture for public archival projects.",
     "longdesc": "A Rust desktop application for high-throughput archival capture with gPhoto2-compatible cameras. bookThing keeps live preview, capture settings, and large exports responsive with dedicated workers, supports retaking and renumbering pages, and produces portable ZIP archives containing converted page images, bibliographic metadata, and an export log."
   }
 ]

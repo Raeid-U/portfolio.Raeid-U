@@ -70,7 +70,7 @@ export default function Footer() {
 
                 <div className="flex items-center hover:tracking-widest transition-all duration-700 space-x-4 p-4">
                   <FaCode className="text-highlight text-2xl" />
-                  <a href="https://github.com/Raeid-U/portfolio.Raeid-U" className="text-md text-offwhite">Source Code</a>
+                  <a href="https://github.com/Raeid-U/portfolio.Raeid-U" className="text-md text-offwhite">Source Code ↗</a>
                 </div>
               </div>
             </div>

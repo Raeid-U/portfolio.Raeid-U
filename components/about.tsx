@@ -18,13 +18,13 @@ export default function About() {
         <AboutBox />
       </div>
 
-      <div className="relative items-center w-full md:hidden">
+      {/*<div className="relative items-center w-full md:hidden">
         <img
           src="/about_sat.JPG"
           alt="About Image"
           className="object-scale-down w-full h-full p-8"
         />
-      </div>
+      </div>*/}
     </div>
   );
 }

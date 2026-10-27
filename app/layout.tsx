@@ -3,13 +3,13 @@ import "./globals.css";
 import { JetBrains_Mono, Lateef } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "Raeid Usmanali | Full-Stack Developer & Software Engineer",
+  title: "Raeid Usmanali | Portfolio",
   description:
     "Explore Raeid's portfolio showcasing full-stack development, software engineering projects, and expertise in Next.js, React, Node.js, Rust, Tauri, and C/C++.",
   keywords:
     "Raeid-U, portfolio, raeid, raeid usmanali, full-stack developer, software engineer, Next.js, React, Node.js, Rust, Tauri, C/C++, web development",
   openGraph: {
-    title: "Raeid-U | Full-Stack Developer & Software Engineer",
+    title: "Raeid-U | Portfolio",
     description:
       "Discover Raeid's work in web development, software engineering, and full-stack development. Featuring expertise in Next.js, React, Node.js, Rust, Tauri, C/C++ and more.",
     url: "https://raeid-u.ca",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Raeid-U | Full-Stack Developer & Software Engineer",
+    title: "Raeid-U | Portfolio",
     description:
       "Explore Raeid's software engineering projects, full-stack development skills, and expertise in modern web technologies.",
     images: ["https://www.raeid.ca/hero_sat.JPG"],
