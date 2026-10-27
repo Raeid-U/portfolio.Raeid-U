@@ -1,75 +1,73 @@
 [
   {
-    "thumbnail": "/projects/project_0.jpg",
-    "name": "Masjid API",
+    "thumbnail": "/projects/redactthis.png",
+    "name": "RedactThis",
     "stack": [
-      "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
-      "https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
-      "https://img.shields.io/badge/express.js-000000?style=for-the-badge&logo=express&logoColor=white"
+      "https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white",
+      "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white",
+      "https://img.shields.io/badge/llama.cpp-111111?style=for-the-badge&logo=meta&logoColor=white"
     ],
-    "date": "01/01/2025",
-    "github": "https://github.com/Raeid-U/Masjid-API",
-    "longdesc": "Masjid API is a general-purpose Islamic API that provides accurate Salah (prayer) times and Quranic Ayah lookup functionality. Designed for developers looking to integrate Islamic data into applications efficiently and reliably."
+    "date": "10/26/2026",
+    "github": "https://github.com/Raeid-U/RedactThis",
+    "longdesc": "A self-hosted safety layer for text shared with external AI services. RedactThis combines deterministic Go detectors with a local SmolLM2 model and an independent verification pass, replacing sensitive values with stable typed placeholders. It ships as one Go binary with a private llama.cpp sidecar and stores no requests, analytics, or placeholder mappings."
   },
   {
-    "thumbnail": "/projects/project_1.jpg",
-    "name": "Calculator App",
+    "thumbnail": "/projects/skyforger.png",
+    "name": "SkyForger",
+    "stack": [
+      "https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white",
+      "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white"
+    ],
+    "date": "10/26/2026",
+    "github": "https://github.com/Raeid-U/SkyForger",
+    "longdesc": "A Hypixel SkyBlock forge companion for comparing profitable recipes, expanding nested crafting trees, and tracking active forge slots. SkyForger combines live Bazaar and Auction House evidence with profile progression, inventory checks, and a maintained catalog of more than 150 forge and gemstone recipes while making uncertain or missing market data explicit."
+  },
+  {
+    "thumbnail": "/projects/bookthing.png",
+    "name": "bookThing",
+    "stack": [
+      "https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white",
+      "https://img.shields.io/badge/egui-7B42BC?style=for-the-badge&logo=rust&logoColor=white",
+      "https://img.shields.io/badge/gPhoto2-4C566A?style=for-the-badge&logo=linux&logoColor=white"
+    ],
+    "date": "10/22/2025",
+    "github": "https://github.com/Raeid-U/bookThing",
+    "longdesc": "A Rust desktop application for high-throughput archival capture with gPhoto2-compatible cameras. bookThing keeps live preview, capture settings, and large exports responsive with dedicated workers, supports retaking and renumbering pages, and produces portable ZIP archives containing converted page images, bibliographic metadata, and an export log."
+  },
+  {
+    "thumbnail": "/projects/favicon-kit.png",
+    "name": "Favicon Kit",
+    "stack": [
+      "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+      "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+      "https://img.shields.io/badge/Canvas-2C8EBB?style=for-the-badge&logo=html5&logoColor=white"
+    ],
+    "date": "10/23/2026",
+    "github": "https://github.com/Raeid-U/favicon-kit",
+    "longdesc": "A dependency-free favicon generator that runs entirely in the browser. It turns one square PNG into a real multi-image ICO, Apple and Android icons, a web manifest, and ready-to-paste HTML, then packages everything into a ZIP without uploading the source image or relying on a backend."
+  },
+  {
+    "thumbnail": "/projects/pcsv.png",
+    "name": "Peek CSV",
     "stack": [
       "https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white",
-      "https://img.shields.io/badge/STDIO-FFD700?style=for-the-badge"
+      "https://img.shields.io/badge/CLI-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"
     ],
-    "date": "05/20/2024",
-    "github": "https://github.com/Raeid-U/Calculator-App",
-    "longdesc": "This terminal-based calculator allows students to compute scores, grades, and weighted averages using standard input-output operations. Built in C++ with optimized handling of user input for a seamless experience."
+    "date": "11/05/2025",
+    "github": "https://github.com/Raeid-U/pcsv",
+    "longdesc": "A focused C++ command-line utility that makes CSV files readable without leaving the terminal. Peek CSV validates structure, explains malformed rows with a nearby data window, reports file metadata, and renders padded, centered tables with formatting controls suited to piping through less for large datasets."
   },
   {
-    "thumbnail": "/projects/project_2.jpg",
-    "name": "GW2 API Testing 0.1",
+    "thumbnail": "/projects/solaris.png",
+    "name": "Solaris API",
     "stack": [
-      "https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white",
-      "https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white",
-      "https://img.shields.io/badge/shiny-13A1DE?style=for-the-badge&logo=rshiny&logoColor=white"
+      "https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+      "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"
     ],
-    "date": "08/06/2024",
-    "github": "https://github.com/Raeid-U/GW2-API-Testing-0.1",
-    "longdesc": "A simple interactive R Shiny app that connects to the Guild Wars 2 API to fetch and display item prices for five selected in-game items. It provides a visual representation of price trends for traders and enthusiasts."
-  },
-  {
-    "thumbnail": "/projects/project_3.jpg",
-    "name": "Library System",
-    "stack": [
-      "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
-      "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
-      "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
-    ],
-    "date": "05/03/2023",
-    "github": "https://github.com/Raeid-U/Library-System",
-    "longdesc": "A simple library management system built using vanilla HTML, CSS, and JavaScript. Allows users to add, edit, and remove books while keeping track of available inventory."
-  },
-  {
-    "thumbnail": "/projects/project_4.jpg",
-    "name": "Ninja Game",
-    "stack": [
-      "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
-      "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
-      "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
-      "https://img.shields.io/badge/P5.js-ED225D?style=for-the-badge&logo=p5.js&logoColor=white"
-    ],
-    "date": "02/02/2022",
-    "github": "https://github.com/Raeid-U/Ninja-Game",
-    "longdesc": "A ninja-themed platformer built using P5.js and JavaScript Canvas. Features jumping mechanics, enemy AI, and attack combos to create a full in-browser game experience."
-  },
-  {
-    "thumbnail": "/projects/project_5.jpg",
-    "name": "LofiModoro",
-    "stack": [
-      "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
-      "https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white",
-      "https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white",
-      "https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"
-    ],
-    "date": "06/01/2024",
-    "github": "https://github.com/Raeid-U/LofiModoro",
-    "longdesc": "LofiModoro is a modern productivity app that combines the Pomodoro technique with a built-in Spotify music player. Helps users stay focused while enjoying curated lofi beats."
+    "date": "10/05/2026",
+    "github": "https://github.com/Raeid-U/solaris",
+    "longdesc": "An Express API for mathematical Salah time calculation and Quranic verse retrieval. Solaris accepts coordinates, dates, and time zones for daily prayer schedules, and provides configurable Arabic text, translations, and transliterations for individual ayat or ranges through a compact HTTP interface."
   }
 ]

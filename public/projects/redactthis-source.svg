@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#151714"/>
+  <text x="64" y="104" fill="#edf0e9" font-family="Arial,sans-serif" font-size="58" font-weight="700">RedactThis</text>
+  <text x="64" y="148" fill="#aeb5aa" font-family="Arial,sans-serif" font-size="22">Local-first sensitive data redaction</text>
+  <rect x="64" y="195" width="872" height="86" rx="18" fill="#1e211d" stroke="#3c423a" stroke-width="3"/>
+  <rect x="88" y="218" width="225" height="40" rx="8" fill="#151714" stroke="#3c423a"/>
+  <text x="108" y="245" fill="#edf0e9" font-family="Arial,sans-serif" font-size="18">Balanced · 100k</text>
+  <rect x="719" y="215" width="191" height="46" rx="9" fill="#76d4b3"/>
+  <text x="750" y="245" fill="#071a14" font-family="Arial,sans-serif" font-size="18" font-weight="700">Redact &amp; verify</text>
+  <rect x="64" y="307" width="423" height="485" rx="18" fill="#1e211d" stroke="#3c423a" stroke-width="3"/>
+  <rect x="513" y="307" width="423" height="485" rx="18" fill="#1e211d" stroke="#3c423a" stroke-width="3"/>
+  <text x="90" y="353" fill="#edf0e9" font-family="Arial,sans-serif" font-size="23" font-weight="700">Original text</text>
+  <text x="539" y="353" fill="#edf0e9" font-family="Arial,sans-serif" font-size="23" font-weight="700">Redacted text</text>
+  <line x1="64" y1="377" x2="487" y2="377" stroke="#3c423a"/><line x1="513" y1="377" x2="936" y2="377" stroke="#3c423a"/>
+  <g font-family="monospace" font-size="20"><text x="90" y="430" fill="#aeb5aa">Contact: alex@example.com</text><text x="90" y="470" fill="#aeb5aa">API_KEY=sk-live-71a...</text><text x="90" y="510" fill="#aeb5aa">Server: 192.168.1.42</text><text x="539" y="430" fill="#76d4b3">Contact: [EMAIL_1]</text><text x="539" y="470" fill="#76d4b3">API_KEY=[API_KEY_1]</text><text x="539" y="510" fill="#76d4b3">Server: [IP_ADDRESS_1]</text></g>
+  <rect x="64" y="822" width="872" height="90" rx="14" fill="#1e211d" stroke="#176b46" stroke-width="3"/>
+  <circle cx="101" cy="867" r="11" fill="#78d8aa"/><text x="126" y="875" fill="#78d8aa" font-family="Arial,sans-serif" font-size="23" font-weight="700">Verified locally · nothing leaves your machine</text>
+</svg>

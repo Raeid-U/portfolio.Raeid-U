@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#071018"/><circle cx="500" cy="310" r="154" fill="#13263a"/><circle cx="558" cy="269" r="146" fill="#071018"/><circle cx="649" cy="188" r="8" fill="#e6bd62"/><circle cx="704" cy="273" r="5" fill="#e6bd62"/><circle cx="652" cy="372" r="5" fill="#e6bd62"/>
+  <text x="62" y="104" fill="#edf5fa" font-family="Arial,sans-serif" font-size="59" font-weight="700">Solaris API</text><text x="62" y="148" fill="#8ca1b5" font-family="Arial,sans-serif" font-size="21">Prayer times and Quran retrieval</text>
+  <rect x="62" y="496" width="876" height="382" rx="18" fill="#0d1924" stroke="#24394b" stroke-width="3"/>
+  <text x="92" y="548" fill="#73d4b2" font-family="monospace" font-size="20">GET /salah?latitude=43.74&amp;longitude=-79.74</text>
+  <g fill="#dce9f1" font-family="monospace" font-size="24"><text x="92" y="606">{</text><text x="126" y="646">"Fajr":    "05:30",</text><text x="126" y="686">"Dhuhr":   "12:30",</text><text x="126" y="726">"Asr":     "15:45",</text><text x="126" y="766">"Maghrib": "18:18",</text><text x="126" y="806">"Isha":    "19:45"</text><text x="92" y="846">}</text></g>
+  <rect x="744" y="542" width="158" height="44" rx="22" fill="#173f32"/><circle cx="775" cy="564" r="8" fill="#73d4b2"/><text x="797" y="572" fill="#73d4b2" font-family="Arial,sans-serif" font-size="19">200 OK</text>
+</svg>

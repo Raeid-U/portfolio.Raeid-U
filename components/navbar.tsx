@@ -39,7 +39,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav
+      {/*<nav
         className={`hidden lg:flex fixed z-50 transform top-0 left-1/2 -translate-x-1/2 mt-8 items-center justify-between drop-shadow-2xl
         transition-all duration-700 ease-in-out ${
           expanded
@@ -138,9 +138,9 @@ export default function Navbar() {
             my resumé →
           </a>
         </div>
-      </nav>
+      </nav>*/}
 
-      <div className="lg:hidden fixed top-4 right-4 z-50">
+      <div className="fixed top-4 right-4 z-50">
         <button
           onClick={() => setDropdownOpen(!dropdownOpen)}
           className="bg-background p-2 rounded-full shadow-lg focus:outline-none"
