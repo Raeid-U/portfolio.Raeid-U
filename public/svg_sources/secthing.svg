@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#f4f7f8"/>
+  <rect x="42" y="42" width="916" height="916" fill="#ffffff" stroke="#b9c7ce" stroke-width="2"/>
+  <rect x="42" y="42" width="916" height="72" fill="#fbfcfc"/>
+  <text x="72" y="87" fill="#163c49" font-family="Arial,sans-serif" font-size="32" font-weight="800">secThing</text>
+  <line x1="218" y1="62" x2="218" y2="94" stroke="#d5dee3"/>
+  <text x="238" y="84" fill="#61717c" font-family="Arial,sans-serif" font-size="15">Evidence library</text>
+  <rect x="748" y="60" width="180" height="37" rx="3" fill="#25657a"/>
+  <text x="838" y="84" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="14" font-weight="700">Add company</text>
+  <line x1="42" y1="114" x2="958" y2="114" stroke="#d5dee3"/>
+
+  <rect x="42" y="114" width="224" height="844" fill="#eef3f5"/>
+  <text x="68" y="156" fill="#42535e" font-family="Arial,sans-serif" font-size="13" font-weight="700">COMPANY LIBRARY</text>
+  <rect x="64" y="177" width="180" height="38" fill="#ffffff" stroke="#c4d0d6"/>
+  <text x="80" y="202" fill="#71818b" font-family="Arial,sans-serif" font-size="12">Find a company…</text>
+  <rect x="54" y="239" width="202" height="76" fill="#dce9ec"/>
+  <rect x="54" y="239" width="4" height="76" fill="#25657a"/>
+  <text x="72" y="268" fill="#1f5669" font-family="Arial,sans-serif" font-size="14" font-weight="700">NORTHSTAR SYSTEMS</text>
+  <text x="72" y="291" fill="#61717c" font-family="Arial,sans-serif" font-size="11">NSTR · 24 filings</text>
+  <text x="72" y="348" fill="#42535e" font-family="Arial,sans-serif" font-size="14" font-weight="700">ORBITAL LABS</text>
+  <text x="72" y="371" fill="#61717c" font-family="Arial,sans-serif" font-size="11">ORBT · 18 filings</text>
+
+  <text x="294" y="157" fill="#17232d" font-family="Arial,sans-serif" font-size="25" font-weight="700">Northstar Systems, Inc.</text>
+  <text x="294" y="181" fill="#61717c" font-family="Arial,sans-serif" font-size="12">Technology · SEC evidence since 2022</text>
+  <text x="752" y="151" fill="#17232d" font-family="monospace" font-size="20" font-weight="700">1,842</text>
+  <text x="752" y="173" fill="#61717c" font-family="Arial,sans-serif" font-size="10">SEARCHABLE PASSAGES</text>
+  <text x="886" y="151" fill="#17232d" font-family="monospace" font-size="20" font-weight="700">1,842</text>
+  <text x="886" y="173" fill="#61717c" font-family="Arial,sans-serif" font-size="10">MEANING READY</text>
+
+  <rect x="290" y="208" width="646" height="52" rx="3" fill="#ffffff" stroke="#aebdc4"/>
+  <text x="312" y="240" fill="#61717c" font-family="Arial,sans-serif" font-size="14">supply chain risk and mitigation</text>
+  <rect x="842" y="216" width="84" height="36" rx="3" fill="#25657a"/>
+  <text x="884" y="239" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="13" font-weight="700">Search</text>
+  <text x="294" y="292" fill="#25657a" font-family="Arial,sans-serif" font-size="12" font-weight="700">BEST MATCH</text>
+  <text x="391" y="292" fill="#61717c" font-family="Arial,sans-serif" font-size="12">All forms</text>
+  <text x="464" y="292" fill="#61717c" font-family="Arial,sans-serif" font-size="12">All sections</text>
+
+  <rect x="290" y="324" width="646" height="102" fill="#fbfcfc" stroke="#d5dee3"/>
+  <text x="312" y="351" fill="#17232d" font-family="Arial,sans-serif" font-size="15" font-weight="700">Ask the filings</text>
+  <text x="312" y="374" fill="#61717c" font-family="Arial,sans-serif" font-size="11">Answers are grounded in preserved evidence and validated citations.</text>
+  <rect x="312" y="390" width="490" height="25" fill="#ffffff" stroke="#c4d0d6"/>
+  <text x="323" y="407" fill="#71818b" font-family="Arial,sans-serif" font-size="10">What risks changed between the latest 10-K and 10-Q?</text>
+  <rect x="816" y="390" width="98" height="25" fill="#25657a"/>
+  <text x="865" y="407" text-anchor="middle" fill="#ffffff" font-family="Arial,sans-serif" font-size="10" font-weight="700">Ask</text>
+
+  <rect x="290" y="450" width="244" height="484" fill="#ffffff" stroke="#d5dee3"/>
+  <text x="312" y="482" fill="#17232d" font-family="Arial,sans-serif" font-size="15" font-weight="700">Results for “supply chain risk”</text>
+  <text x="312" y="503" fill="#61717c" font-family="Arial,sans-serif" font-size="10">6 passages in 3 filings</text>
+  <rect x="290" y="522" width="244" height="115" fill="#e7f0f2"/>
+  <rect x="290" y="522" width="4" height="115" fill="#25657a"/>
+  <text x="312" y="549" fill="#25657a" font-family="Arial,sans-serif" font-size="11" font-weight="700">10-K · 2026</text>
+  <text x="312" y="573" fill="#2d3c45" font-family="serif" font-size="12">The company maintains multiple</text>
+  <text x="312" y="592" fill="#2d3c45" font-family="serif" font-size="12">qualified suppliers for critical…</text>
+  <text x="312" y="619" fill="#61717c" font-family="Arial,sans-serif" font-size="10">Risk Factors · Inspect source</text>
+  <text x="312" y="676" fill="#25657a" font-family="Arial,sans-serif" font-size="11" font-weight="700">10-Q · Q2 2026</text>
+  <text x="312" y="700" fill="#2d3c45" font-family="serif" font-size="12">Lead times improved during the</text>
+  <text x="312" y="719" fill="#2d3c45" font-family="serif" font-size="12">quarter, though component…</text>
+  <line x1="312" y1="750" x2="512" y2="750" stroke="#d5dee3"/>
+  <text x="312" y="788" fill="#25657a" font-family="Arial,sans-serif" font-size="11" font-weight="700">8-K · May 2026</text>
+
+  <rect x="548" y="450" width="388" height="484" fill="#ffffff" stroke="#d5dee3"/>
+  <rect x="548" y="450" width="388" height="46" fill="#f8fafb"/>
+  <text x="568" y="479" fill="#17232d" font-family="Arial,sans-serif" font-size="13" font-weight="700">Preserved source</text>
+  <text x="826" y="479" fill="#25657a" font-family="Arial,sans-serif" font-size="10">ORIGINAL | EXTRACTED</text>
+  <line x1="742" y1="496" x2="742" y2="934" stroke="#b9c7ce" stroke-width="3"/>
+  <text x="570" y="533" fill="#61717c" font-family="Arial,sans-serif" font-size="10">ITEM 1A. RISK FACTORS</text>
+  <text x="570" y="566" fill="#293840" font-family="serif" font-size="12">Our operations depend on</text>
+  <text x="570" y="586" fill="#293840" font-family="serif" font-size="12">a resilient supply network.</text>
+  <rect x="566" y="607" width="156" height="57" fill="#fff1b8"/>
+  <text x="570" y="628" fill="#293840" font-family="serif" font-size="12">We maintain multiple</text>
+  <text x="570" y="648" fill="#293840" font-family="serif" font-size="12">qualified suppliers…</text>
+  <text x="762" y="533" fill="#61717c" font-family="Arial,sans-serif" font-size="10">EXTRACTED PASSAGE</text>
+  <text x="762" y="566" fill="#293840" font-family="serif" font-size="12">We maintain multiple</text>
+  <text x="762" y="586" fill="#293840" font-family="serif" font-size="12">qualified suppliers for</text>
+  <text x="762" y="606" fill="#293840" font-family="serif" font-size="12">critical components and</text>
+  <text x="762" y="626" fill="#293840" font-family="serif" font-size="12">periodically evaluate…</text>
+  <rect x="762" y="670" width="142" height="30" fill="#e1eef1"/>
+  <text x="833" y="689" text-anchor="middle" fill="#204f60" font-family="Arial,sans-serif" font-size="10" font-weight="700">Citation [S1]</text>
+</svg>

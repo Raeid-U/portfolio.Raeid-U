@@ -1,5 +1,17 @@
 [
   {
+    "thumbnail": "/projects/secthing.png",
+    "name": "secThing [WIP]",
+    "stack": [
+      "https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white",
+      "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"
+    ],
+    "date": "10/27/2026",
+    "github": "https://github.com/Raeid-U/secThing",
+    "longdesc": "In development — secThing is a self-hosted, evidence-first SEC filing research workbench in a usable working state. It preserves primary filings, extracts and indexes passages, supports exact-word, semantic, and hybrid company-scoped search, and pairs results with their original source. Its grounded research assistant returns citation-validated answers and keeps evidence limitations visible."
+  },
+  {
     "thumbnail": "/projects/redactthis.png",
     "name": "RedactThis",
     "stack": [
@@ -24,18 +36,6 @@
     "longdesc": "A Hypixel SkyBlock forge companion for comparing profitable recipes, expanding nested crafting trees, and tracking active forge slots. SkyForger combines live Bazaar and Auction House evidence with profile progression, inventory checks, and a maintained catalog of more than 150 forge and gemstone recipes while making uncertain or missing market data explicit."
   },
   {
-    "thumbnail": "/projects/bookthing.png",
-    "name": "bookThing",
-    "stack": [
-      "https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white",
-      "https://img.shields.io/badge/egui-7B42BC?style=for-the-badge&logo=rust&logoColor=white",
-      "https://img.shields.io/badge/gPhoto2-4C566A?style=for-the-badge&logo=linux&logoColor=white"
-    ],
-    "date": "10/22/2025",
-    "github": "https://github.com/Raeid-U/bookThing",
-    "longdesc": "A Rust desktop application for high-throughput archival capture with gPhoto2-compatible cameras. bookThing keeps live preview, capture settings, and large exports responsive with dedicated workers, supports retaking and renumbering pages, and produces portable ZIP archives containing converted page images, bibliographic metadata, and an export log."
-  },
-  {
     "thumbnail": "/projects/favicon-kit.png",
     "name": "Favicon Kit",
     "stack": [
@@ -46,6 +46,18 @@
     "date": "10/23/2026",
     "github": "https://github.com/Raeid-U/favicon-kit",
     "longdesc": "A dependency-free favicon generator that runs entirely in the browser. It turns one square PNG into a real multi-image ICO, Apple and Android icons, a web manifest, and ready-to-paste HTML, then packages everything into a ZIP without uploading the source image or relying on a backend."
+  },
+  {
+    "thumbnail": "/projects/solaris.png",
+    "name": "Solaris API",
+    "stack": [
+      "https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+      "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"
+    ],
+    "date": "10/05/2026",
+    "github": "https://github.com/Raeid-U/solaris",
+    "longdesc": "An Express API for mathematical Salah time calculation and Quranic verse retrieval. Solaris accepts coordinates, dates, and time zones for daily prayer schedules, and provides configurable Arabic text, translations, and transliterations for individual ayat or ranges through a compact HTTP interface."
   },
   {
     "thumbnail": "/projects/pcsv.png",
@@ -59,15 +71,15 @@
     "longdesc": "A focused C++ command-line utility that makes CSV files readable without leaving the terminal. Peek CSV validates structure, explains malformed rows with a nearby data window, reports file metadata, and renders padded, centered tables with formatting controls suited to piping through less for large datasets."
   },
   {
-    "thumbnail": "/projects/solaris.png",
-    "name": "Solaris API",
+    "thumbnail": "/projects/bookthing.png",
+    "name": "bookThing",
     "stack": [
-      "https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
-      "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
-      "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"
+      "https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white",
+      "https://img.shields.io/badge/egui-7B42BC?style=for-the-badge&logo=rust&logoColor=white",
+      "https://img.shields.io/badge/gPhoto2-4C566A?style=for-the-badge&logo=linux&logoColor=white"
     ],
-    "date": "10/05/2026",
-    "github": "https://github.com/Raeid-U/solaris",
-    "longdesc": "An Express API for mathematical Salah time calculation and Quranic verse retrieval. Solaris accepts coordinates, dates, and time zones for daily prayer schedules, and provides configurable Arabic text, translations, and transliterations for individual ayat or ranges through a compact HTTP interface."
+    "date": "10/22/2025",
+    "github": "https://github.com/Raeid-U/bookThing",
+    "longdesc": "A Rust desktop application for high-throughput archival capture with gPhoto2-compatible cameras. bookThing keeps live preview, capture settings, and large exports responsive with dedicated workers, supports retaking and renumbering pages, and produces portable ZIP archives containing converted page images, bibliographic metadata, and an export log."
   }
 ]
