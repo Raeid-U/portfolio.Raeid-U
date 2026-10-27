@@ -4,12 +4,12 @@
     "name": "secThing [WIP]",
     "stack": [
       "https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white",
-      "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
+      "https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white",
       "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"
     ],
     "date": "10/27/2026",
     "github": "https://github.com/Raeid-U/secThing",
-    "longdesc": "In development — secThing is a self-hosted, evidence-first SEC filing research workbench in a usable working state. It preserves primary filings, extracts and indexes passages, supports exact-word, semantic, and hybrid company-scoped search, and pairs results with their original source. Its grounded research assistant returns citation-validated answers and keeps evidence limitations visible."
+    "longdesc": "[WIP] secThing is a self-hosted, local-AI powered, evidence-first SEC filing research workbench in a usable working state. It preserves primary filings, extracts and indexes passages, supports exact-word, semantic, and hybrid company-scoped search, and pairs results with their original source. Its grounded research assistant returns citation-validated answers and keeps evidence limitations visible."
   },
   {
     "thumbnail": "/projects/redactthis.png",
@@ -21,7 +21,7 @@
     ],
     "date": "10/26/2026",
     "github": "https://github.com/Raeid-U/RedactThis",
-    "longdesc": "A self-hosted safety layer for text shared with external AI services. RedactThis combines deterministic Go detectors with a local SmolLM2 model and an independent verification pass, replacing sensitive values with stable typed placeholders. It ships as one Go binary with a private llama.cpp sidecar and stores no requests, analytics, or placeholder mappings."
+    "longdesc": "A self-hosted, local-AI powered, safety layer for text shared with external AI services. RedactThis combines deterministic Go detectors with a local SmolLM2 model and an independent verification pass, replacing sensitive values with stable typed placeholders. It ships as one Go binary with a private llama.cpp sidecar and stores no requests, analytics, or placeholder mappings."
   },
   {
     "thumbnail": "/projects/skyforger.png",
