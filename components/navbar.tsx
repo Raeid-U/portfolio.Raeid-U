@@ -130,7 +130,7 @@ export default function Navbar() {
           </a>
           <span> | </span>
           <a
-            href="/raeid_resume_feb2025.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-offwhite text-nowrap overflow-hidden hover:tracking-widest transition-all duration-700"
@@ -193,7 +193,7 @@ export default function Navbar() {
               </a>
               <div className="mb-4 mt-2">
                 <a
-                  href="/raeid_resume_feb2025.pdf"
+                  href="/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-6 py-8 text-offwhite hover:tracking-widest transition-all duration-700"

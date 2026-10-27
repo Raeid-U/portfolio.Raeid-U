@@ -21,8 +21,6 @@ export default function AboutBox() {
       title: "currently",
       content: (
         <>
-
-          <p> &nbsp; </p>
           <p>
             working as a{" "}
             <span className="text-highlight">data science intern</span> at IFC,
@@ -98,7 +96,7 @@ export default function AboutBox() {
         </div>
         <div className="mb-4">
           <a
-            href="/raeid_resume_feb2025.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 px-4 py-8 mb-4 text-offwhite hover:tracking-widest transition-all duration-700"

@@ -5,7 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaInstagram,
-  FaPhone,
+  FaCode,
   FaEnvelope,
 } from "react-icons/fa";
 
@@ -22,7 +22,7 @@ export default function Footer() {
                 </h3>
                 <div className="mb-4 mt-2">
                   <a
-                    href="/raeid_resume_feb2025.pdf"
+                    href="/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-6 py-8 text-offwhite hover:tracking-widest transition-all duration-700"
@@ -64,13 +64,13 @@ export default function Footer() {
 
               <div className="bg-background p-6">
                 <div className="flex items-center hover:tracking-widest transition-all duration-700 space-x-4 p-4 mb-4">
-                  <FaPhone className="text-highlight text-2xl" />
-                  <p className="text-md text-offwhite">+1 (647) 451-4036</p>
+                  <FaEnvelope className="text-highlight text-2xl" />
+                  <p className="text-md text-offwhite">raeidus15@gmail.com</p>
                 </div>
 
                 <div className="flex items-center hover:tracking-widest transition-all duration-700 space-x-4 p-4">
-                  <FaEnvelope className="text-highlight text-2xl" />
-                  <p className="text-md text-offwhite">raeidus15@gmail.com</p>
+                  <FaCode className="text-highlight text-2xl" />
+                  <a href="https://github.com/Raeid-U/portfolio.Raeid-U" className="text-md text-offwhite">Source Code</a>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="bg-background text-offwhite text-xs md:text-sm py-6 w-full">
           <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
             <p>
-              &copy; 2025 <span className="text-highlight">Raeid Usmanali</span>{" "}
+              &copy; 2026 <span className="text-highlight">Raeid Usmanali</span>{" "}
               | All Rights Reserved
             </p>
             <div className="flex space-x-4 mt-2 md:mt-0">
