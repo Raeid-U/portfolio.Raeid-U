@@ -42,17 +42,17 @@ export default function Projects() {
   }, [selectedProject]);
 
   return (
-    <section className="w-full bg-foreground px-6 py-14 text-offwhite sm:px-8 lg:px-12 lg:py-20">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+    <section className="h-screen w-full overflow-y-auto bg-foreground px-6 py-14 text-offwhite sm:px-8 lg:h-auto lg:overflow-hidden lg:px-12 lg:py-20">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 md:grid-cols-2 lg:max-h-[942px] lg:overflow-y-auto lg:pr-2 xl:grid-cols-3">
         {projects.map((project) => (
           <button
             key={project.name}
             type="button"
             onClick={() => setSelectedProject(project)}
-            className="group min-w-0 overflow-hidden bg-background text-left shadow-sm outline-none transition-transform duration-300 hover:-translate-y-1 focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-4 focus-visible:ring-offset-foreground"
+            className="group min-w-0 overflow-hidden bg-background text-left shadow-sm outline-none transition-transform duration-300 hover:-translate-y-1 focus-visible:ring-2 focus-visible:ring-highlight focus-visible:ring-offset-4 focus-visible:ring-offset-foreground lg:h-[455px]"
             aria-label={`View details for ${project.name}`}
           >
-            <div className="relative hidden aspect-[16/10] overflow-hidden bg-foreground sm:block">
+            <div className="relative hidden aspect-[16/10] overflow-hidden bg-foreground sm:block lg:h-[245px] lg:aspect-auto">
               <Image
                 src={project.thumbnail}
                 alt=""
@@ -62,7 +62,7 @@ export default function Projects() {
               />
             </div>
 
-            <div className="flex min-h-[210px] flex-col p-5 sm:p-6">
+            <div className="flex min-h-[210px] flex-col p-5 sm:p-6 lg:h-[210px] lg:min-h-0">
               <div className="flex items-start justify-between gap-4">
                 <h3 className="text-xl font-semibold leading-tight">
                   {project.name}
