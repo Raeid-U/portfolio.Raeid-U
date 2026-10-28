@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#15120f"/>
+  <text x="62" y="102" fill="#f4eee5" font-family="Arial,sans-serif" font-size="60" font-weight="700">lumber.h</text>
+  <text x="62" y="148" fill="#aa9c8b" font-family="monospace" font-size="21">Small logs. Clear trails. Plain C.</text>
+  <rect x="60" y="194" width="880" height="326" rx="12" fill="#211c17" stroke="#51483e" stroke-width="3"/>
+  <circle cx="91" cy="226" r="9" fill="#e6675c"/><circle cx="120" cy="226" r="9" fill="#e5b454"/><circle cx="149" cy="226" r="9" fill="#6dbb73"/>
+  <g font-family="monospace" font-size="22"><text x="86" y="290" fill="#d9ccbc">#define LOGGING 1</text><text x="86" y="332" fill="#d9ccbc">#define PROGNAME "worker"</text><text x="86" y="374" fill="#d9ccbc">#include "lumber.h"</text><text x="86" y="434" fill="#8bd5a0">log("process started");</text><text x="86" y="476" fill="#8bd5a0">logf("processed %d records", count);</text></g>
+  <text x="62" y="581" fill="#f4eee5" font-family="Arial,sans-serif" font-size="25" font-weight="700">20250906_141205_worker_log.txt</text>
+  <rect x="60" y="614" width="880" height="270" rx="12" fill="#0d0c0b" stroke="#51483e" stroke-width="3"/>
+  <g font-family="monospace" font-size="21"><text x="88" y="675" fill="#a99c8d">[2025-09-06 14:12:05]</text><text x="385" y="675" fill="#f4eee5">process started</text><text x="88" y="727" fill="#a99c8d">[2025-09-06 14:12:06]</text><text x="385" y="727" fill="#f4eee5">processed 128 records</text><text x="88" y="779" fill="#a99c8d">[2025-09-06 14:12:06]</text><text x="385" y="779" fill="#8bd5a0">shutdown cleanly</text></g>
+  <rect x="744" y="828" width="166" height="35" rx="18" fill="#2b3c2d"/><text x="827" y="851" text-anchor="middle" fill="#8bd5a0" font-family="monospace" font-size="14">HEADER ONLY</text>
+  <text x="62" y="938" fill="#aa9c8b" font-family="Arial,sans-serif" font-size="18">C99 · POSIX + Windows · zero dependencies</text>
+</svg>

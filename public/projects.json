@@ -88,5 +88,31 @@
     "github": "https://github.com/Raeid-U/bookThing",
     "shortdesc": "High-throughput camera capture for public archival projects.",
     "longdesc": "A Rust desktop application for high-throughput archival capture with gPhoto2-compatible cameras. bookThing keeps live preview, capture settings, and large exports responsive with dedicated workers, supports retaking and renumbering pages, and produces portable ZIP archives containing converted page images, bibliographic metadata, and an export log."
+  },
+  {
+    "thumbnail": "/projects/lumber.png",
+    "name": "lumber.h",
+    "stack": [
+      "https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black",
+      "https://img.shields.io/badge/Header--only-5C3A21?style=for-the-badge",
+      "https://img.shields.io/badge/C99-283593?style=for-the-badge&logo=c&logoColor=white"
+    ],
+    "date": "09/06/2025",
+    "github": "https://github.com/Raeid-U/lumber",
+    "shortdesc": "Header-only C logging with compile-time configuration.",
+    "longdesc": "A small, dependency-free C99 logging utility distributed as a single header. lumber.h exposes convenient log and formatted-log macros while compile-time definitions control whether logging is enabled, where timestamped files are stored, how entries are formatted, and which program name appears in each log. It supports both POSIX and Windows environments."
+  },
+  {
+    "thumbnail": "/projects/typezero.png",
+    "name": "typeZero",
+    "stack": [
+      "https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black",
+      "https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white",
+      "https://img.shields.io/badge/Terminal-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"
+    ],
+    "date": "04/24/2025",
+    "github": "https://github.com/Raeid-U/typeZero",
+    "shortdesc": "Distraction-free terminal typing tests with real-time feedback.",
+    "longdesc": "A compact C17 typing-speed test designed for Unix-style terminals. typeZero selects randomized prompts, reads keystrokes through terminal controls, highlights correct and incorrect input in real time with ANSI colors, and reports elapsed time and words per minute when the prompt is completed."
   }
 ]

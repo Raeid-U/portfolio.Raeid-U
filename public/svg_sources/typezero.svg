@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" fill="#090d11"/>
+  <rect x="46" y="48" width="908" height="904" rx="18" fill="#101720" stroke="#2a3643" stroke-width="3"/>
+  <circle cx="82" cy="82" r="10" fill="#ff5f57"/><circle cx="114" cy="82" r="10" fill="#febc2e"/><circle cx="146" cy="82" r="10" fill="#28c840"/>
+  <text x="74" y="172" fill="#eef4f8" font-family="Arial,sans-serif" font-size="60" font-weight="700">typeZero</text>
+  <text x="74" y="218" fill="#8fa0ae" font-family="monospace" font-size="21">A distraction-free terminal typing test</text>
+  <line x1="74" y1="265" x2="926" y2="265" stroke="#2a3643"/>
+  <text x="74" y="338" fill="#dbe5ec" font-family="monospace" font-size="24">The traveler leaned out of the window,</text>
+  <text x="74" y="379" fill="#dbe5ec" font-family="monospace" font-size="24">watching the autumn foliage dance in</text>
+  <text x="74" y="420" fill="#dbe5ec" font-family="monospace" font-size="24">shades of amber and gold.</text>
+  <text x="74" y="492" fill="#55d98b" font-family="monospace" font-size="24">The traveler leaned out of the window,</text>
+  <text x="74" y="533" fill="#55d98b" font-family="monospace" font-size="24">watching the autumn</text><text x="350" y="533" fill="#ff746c" font-family="monospace" font-size="24"> foliaeg</text><text x="458" y="533" fill="#dbe5ec" font-family="monospace" font-size="24">_</text>
+  <line x1="74" y1="610" x2="926" y2="610" stroke="#2a3643"/>
+  <text x="74" y="682" fill="#8fa0ae" font-family="monospace" font-size="20">TIME</text><text x="74" y="728" fill="#eef4f8" font-family="monospace" font-size="34">00:24</text>
+  <text x="390" y="682" fill="#8fa0ae" font-family="monospace" font-size="20">ACCURACY</text><text x="390" y="728" fill="#eef4f8" font-family="monospace" font-size="34">96%</text>
+  <text x="714" y="682" fill="#8fa0ae" font-family="monospace" font-size="20">WORDS / MIN</text><text x="714" y="728" fill="#55d98b" font-family="monospace" font-size="42" font-weight="700">74</text>
+  <rect x="74" y="814" width="852" height="70" rx="8" fill="#15231d" stroke="#315f48"/>
+  <text x="500" y="858" text-anchor="middle" fill="#55d98b" font-family="monospace" font-size="20">Press any key to try again</text>
+</svg>
